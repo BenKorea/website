@@ -4,7 +4,7 @@
     "href": "quarto.html",
     "title": "BenKorea",
     "section": "",
-    "text": "Quarto website"
+    "text": "Quarto website code block에 copy button을 추가한 예시입니다.\n\nprint(\"Hellow Quarto!\")\n\n[1] \"Hellow Quarto!\""
   },
   {
     "objectID": "index.html",
