@@ -1,8 +1,15 @@
+---
+format:
+  html:
+    css: styles.css
+---
+
 #### Quarto website code가 아닌 block에 제목과 copy button을 추가하기
 
 yml 파일에서 code-copy를 true로 설정하고 code chuck에서는 eval=FALSE 및 filename 값을 설정해 주면 됩니다.
 
-
+<div class="code-box">
+  <div class="code-box-title">Example R Command</div>
 ```{r copy_button, eval=FALSE, filename="test"}
 git remote add origin https://github.com/RPythonStudy/Website.git
 ```

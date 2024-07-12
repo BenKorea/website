@@ -4,7 +4,7 @@
     "href": "quarto.html",
     "title": "BenKorea",
     "section": "",
-    "text": "Quarto website code가 아닌 block에 제목과 copy button을 추가하기\nyml 파일에서 code-copy를 true로 설정하고 code chuck에서는 eval=FALSE 및 filename 값을 설정해 주면 됩니다.\n\n\n\ntest\n\ngit remote add origin https://github.com/RPythonStudy/Website.git"
+    "text": "Quarto website code가 아닌 block에 제목과 copy button을 추가하기\nyml 파일에서 code-copy를 true로 설정하고 code chuck에서는 eval=FALSE 및 filename 값을 설정해 주면 됩니다.\n\n\nExample R Command\n\n\n\n\ntest\n\ngit remote add origin https://github.com/RPythonStudy/Website.git"
   },
   {
     "objectID": "index.html",

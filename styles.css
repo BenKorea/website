@@ -1,1 +1,44 @@
 /* css styles */
+
+/* 기본 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* 작은 화면(스마트폰) 스타일 */
+@media (max-width: 600px) {
+  body {
+    background-color: #f0f0f0;
+  }
+
+  .code-box {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+}
+
+/* 중간 화면(태블릿) 스타일 */
+@media (min-width: 601px) and (max-width: 992px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .code-box {
+    padding: 15px;
+    font-size: 1em;
+  }
+}
+
+/* 큰 화면(데스크탑) 스타일 */
+@media (min-width: 993px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .code-box {
+    padding: 20px;
+    font-size: 1.1em;
+  }
+}
+
