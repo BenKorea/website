@@ -1,0 +1,8 @@
+---
+title: "현장점검 가이드"
+author: "Radiation Safety Committee"
+date: "2024-11-18"
+categories: [introduction]
+---
+
+2022년 원자력안전기술원 공개자료입니다.

@@ -1,0 +1,12 @@
+---
+title: "규제기관 조직도"
+author: "Radiation Safety Committee"
+date: "2024-11-18"
+categories: [introduction]
+---
+
+## 한국원자력안전기술원
+
+https://www.kins.re.kr/organization
+
+의료방사선평가실이 주로 관련있다.

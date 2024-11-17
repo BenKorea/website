@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "핵의학 방사선안전관리"
+  navbar:
+    logo: KSNM_logo.png
+    left:
+      - text: 블로그
+        href: index.qmd
+      - text: "현장점검 지적사항"
+        href: posts/information/index.qmd
+      - text: "규제기관조직도"
+        href: posts/organization/index.qmd        
+      
+  
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+    search: true
+  sidebar:
+    - title: "현장점검지적사항"
+      contents:
+        - posts/information/index.qmd
+        - posts/information/guide.qmd
+        
+    - title: "규제기관조직도"
+      contents:
+        - posts/organization/index.qmd
+    
+        
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    comments:
+      utterances:
+        repo: RadiationSafetyNM/website
+
+editor: visual
