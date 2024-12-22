@@ -2,12 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="BenKorea">
+<meta name="dcterms.date" content="2024-11-21">
 
-<title>블로그 – BenKorea</title>
+<title>PET/CT Interpretation – BenKorea</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">BenKorea</span>
     </a>
   </div>
@@ -149,21 +91,17 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/petct/index.html"> 
+    <a class="nav-link" href="../../posts/petct/index.html"> 
 <span class="menu-text">PETCT Interpretation</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts/station/index.html"> 
-<span class="menu-text">LN station</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">사이트사용법</span></a>
   </li>  
   <li class="nav-item compact">
@@ -181,28 +119,42 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">블로그</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">PET/CT Interpretation</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">PET/CT</div>
+                <div class="quarto-category">Interpretation</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>BenKorea </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 21, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QW5hbCUyMENhcmNpbm9tYQ==">Anal Carcinoma <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SW50ZXJwcmV0YXRpb24=">Interpretation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UEVUJTJGQ1Q=">PET/CT <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3RhZ2luZw==">staging <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
@@ -211,158 +163,7 @@ window.Quarto = {
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QW5hbCUyMENhcmNpbm9tYSUyQ3N0YWdpbmc=" data-listing-date-sort="1732114800000" data-listing-file-modified-sort="1732203496686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1987">
-<div class="thumbnail">
-<p><a href="./posts/petct/analcarcinoma/staging.html" class="no-external"></a></p><a href="./posts/petct/analcarcinoma/staging.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/petct/analcarcinoma/staging.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/petct/analcarcinoma/staging.html" class="no-external">Anal Carcinoma Staging</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/petct/analcarcinoma/staging.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QW5hbCUyMENhcmNpbm9tYQ=='); return false;">
-Anal Carcinoma
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('c3RhZ2luZw=='); return false;">
-staging
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/petct/analcarcinoma/staging.html" class="no-external"><em>Note</em>: The main difference between the AJCC 8th and 9th Editions is the subdivision of T4 into T4a and T4b in the 9th Edition, which provides a more detailed categorization…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/petct/analcarcinoma/staging.html" class="no-external">
-<div class="listing-date">
-Nov 21, 2024
-</div>
-<div class="listing-author">
-BenKorea
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="UEVUJTJGQ1QlMkNJbnRlcnByZXRhdGlvbg==" data-listing-date-sort="1732114800000" data-listing-file-modified-sort="1732201086974" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/petct/index.html" class="no-external"></a></p><a href="./posts/petct/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/petct/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/petct/index.html" class="no-external">PET/CT Interpretation</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/petct/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UEVUJTJGQ1Q='); return false;">
-PET/CT
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJwcmV0YXRpb24='); return false;">
-Interpretation
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/petct/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/petct/index.html" class="no-external">
-<div class="listing-date">
-Nov 21, 2024
-</div>
-<div class="listing-author">
-BenKorea
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="UEVUJTJGQ1QlMkNJbnRlcnByZXRhdGlvbg==" data-listing-date-sort="1732114800000" data-listing-file-modified-sort="1732201086974" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/station/index.html" class="no-external"></a></p><a href="./posts/station/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/station/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/station/index.html" class="no-external">PET/CT Interpretation</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/station/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UEVUJTJGQ1Q='); return false;">
-PET/CT
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJwcmV0YXRpb24='); return false;">
-Interpretation
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/station/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/station/index.html" class="no-external">
-<div class="listing-date">
-Nov 21, 2024
-</div>
-<div class="listing-author">
-BenKorea
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="QW5hbCUyMENhcmNpbm9tYSUyQ3N0YWdpbmc=" data-listing-date-sort="1732114800000" data-listing-file-modified-sort="1732201449062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1985">
-<div class="thumbnail">
-<p><a href="./posts/station/pelvis/pe;vis.html" class="no-external"></a></p><a href="./posts/station/pelvis/pe;vis.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/station/pelvis/pe;vis.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/station/pelvis/pe;vis.html" class="no-external">Anal Carcinoma Staging</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/station/pelvis/pe;vis.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QW5hbCUyMENhcmNpbm9tYQ=='); return false;">
-Anal Carcinoma
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('c3RhZ2luZw=='); return false;">
-staging
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/station/pelvis/pe;vis.html" class="no-external"><em>Note</em>: The main difference between the AJCC 8th and 9th Editions is the subdivision of T4 into T4a and T4b in the 9th Edition, which provides a more detailed categorization…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/station/pelvis/pe;vis.html" class="no-external">
-<div class="listing-date">
-Nov 21, 2024
-</div>
-<div class="listing-author">
-BenKorea
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -445,6 +246,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -555,6 +358,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
