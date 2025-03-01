@@ -2,10 +2,17 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/petct/analcarcinoma/staging.html",
-      "/posts/petct/index.html",
-      "/posts/station/index.html",
-      "/posts/station/pelvis/pe;vis.html"
+      "/posts/Anatomy/index.html",
+      "/posts/Anatomy/pelvis/pelvis.html",
+      "/posts/Oncology/Anal_Carcinoma/staging.html",
+      "/posts/Oncology/index.html",
+      "/posts/Oncology/NSCLC/staging.html",
+      "/posts/IT/introduction.html",
+      "/posts/IT/Rasberry_Pi/setup.html",
+      "/posts/IT/silent_pc/silent_pc.html",
+      "/posts/Oncology/Prostate_Cancer/staging.html",
+      "/posts/Oncology/SCLC/staging.html",
+      "/posts/about.html"
     ]
   }
 ]

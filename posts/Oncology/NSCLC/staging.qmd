@@ -1,0 +1,99 @@
+---
+title: "Staging"
+description: "NSCLC AJCC 8th editiopn (2017)"
+author: "BenKorea"
+date: "2024-11-18"
+date-modified: last-modified"
+categories: [NSCLC, staging]
+---
+
+The definitions of T, N, and M staging in non-small cell lung cancer are shown in @tbl-stages.
+
+<div>
+
+| **Stage** | **Description** |
+|:-----------|:-----------------------------------------------------------|
+| **TX** | Primary tumor cannot be assessed, or tumor proven by the presence of malignant cells in sputum or bronchial washings but not visualized by imaging or bronchoscopy |
+| **T0** | No evidence of primary tumor |
+| **Tis** | Carcinoma in situ: <br> - Squamous cell carcinoma in situ (SCIS) <br> - Adenocarcinoma in situ (AIS): adenocarcinoma with pure lepidic pattern, ≤3 cm in greatest dimension |
+| **T1** | Tumor ≤3 cm in greatest dimension, surrounded by lung or visceral pleura, without bronchoscopic evidence of invasion more proximal than the lobar bronchus (not in the main bronchus) |
+| **T1mi** | Minimally invasive adenocarcinoma: adenocarcinoma (≤3 cm in greatest dimension) with a predominantly lepidic pattern and ≤5 mm invasion in greatest dimension |
+| **T1a** | Tumor ≤1 cm in greatest dimension. Includes superficial, spreading tumors of any size whose invasive component is limited to the bronchial wall and may extend proximal to the main bronchus (rare) |
+| **T1b** | Tumor \>1 cm but ≤2 cm in greatest dimension |
+| **T1c** | Tumor \>2 cm but ≤3 cm in greatest dimension |
+| **T2** | Tumor \>3 cm but ≤5 cm or having any of the following features: <br> - Involves the main bronchus, regardless of distance to the carina, but without involvement of the carina <br> - Invades visceral pleura (PL1 or PL2) <br> - Associated with atelectasis or obstructive pneumonitis that extends to the hilar region, involving part or all of the lung |
+| **T2a** | Tumor \>3 cm but ≤4 cm in greatest dimension |
+| **T2b** | Tumor \>4 cm but ≤5 cm in greatest dimension |
+| **T3** | Tumor \>5 cm but ≤7 cm in greatest dimension or directly invading any of the following: parietal pleura (PL3), chest wall (including superior sulcus tumors), phrenic nerve, parietal pericardium; or separate tumor nodule(s) in the same lobe as the primary |
+| **T4** | Tumor \>7 cm or tumor of any size invading one or more of the following: diaphragm, mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, carina; or separate tumor nodule(s) in an ipsilateral lobe different from that of the primary |
+| **N** | **Regional Lymph Nodes** |
+| **NX** | Regional lymph nodes cannot be assessed |
+| **N0** | No regional lymph node metastasis |
+| **N1** | Metastasis in ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, including involvement by direct extension |
+| **N2** | Metastasis in ipsilateral mediastinal and/or subcarinal lymph node(s) |
+| **N3** | Metastasis in contralateral mediastinal, contralateral hilar, ipsilateral or contralateral scalene, or supraclavicular lymph node(s) |
+| **M** | **Distant Metastasis** |
+| **M0** | No distant metastasis |
+| **M1** | Distant metastasis |
+| **M1a** | Separate tumor nodule(s) in a contralateral lobe; tumor with pleural or pericardial nodules or malignant pleural or pericardial effusion |
+| **M1b** | Single extrathoracic metastasis in a single organ (including involvement of a single nonregional node) |
+| **M1c** | Multiple extrathoracic metastases in a single organ or in multiple organs |
+
+: Definition of non-small cell lung cancer T, N, and M staging {#tbl-stages}
+
+</div>
+
+The TNM stage grouping according to the 8th edition of the TNM classification of lung cancers is shown in @tbl-tnm-grouping_8th.
+
+<div>
+
+| **T/M** | **Label**                          | **N0** | **N1** | **N2** | **N3** |
+|:--------|:-----------------------------------|:-------|:-------|:-------|:-------|
+| **T1**  | T1a ≤ 1 cm                         | IA1    | IIB    | IIIA   | IIIB   |
+| **T1b** | \> 1 to ≤ 2 cm                     | IA2    | IIB    | IIIA   | IIIB   |
+| **T1c** | \> 2 to ≤ 3 cm                     | IA3    | IIB    | IIIA   | IIIB   |
+| **T2**  | T2a \> 3 to ≤ 4 cm                 | IB     | IIB    | IIIA   | IIIB   |
+| **T2b** | \> 4 to ≤ 5 cm                     | IIB    | IIB    | IIIA   | IIIB   |
+| **T3**  | \> 5 to ≤ 7 cm                     | IIB    | IIIA   | IIIB   | IIIC   |
+| **T3**  | Invasion                           | IIIA   | IIIA   | IIIB   | IIIC   |
+| **T3**  | Satellite nodules                  | IIIA   | IIIA   | IIIB   | IIIC   |
+| **T4**  | \> 7 cm                            | IIIA   | IIIA   | IIIB   | IIIC   |
+| **T4**  | Invasion                           | IIIA   | IIIA   | IIIB   | IIIC   |
+| **T4**  | Ipsilateral nodules                | IIIA   | IIIA   | IIIB   | IIIC   |
+| **M1**  | M1a Contralateral nodules          | IVA    | IVA    | IVA    | IVA    |
+|         | M1a Pleural, pericardial effusion  | IVA    | IVA    | IVA    | IVA    |
+|         | M1b Single extrathoracic lesion    | IVA    | IVA    | IVA    | IVA    |
+|         | M1c Multiple extrathoracic lesions | IVB    | IVB    | IVB    | IVB    |
+
+: TNM stage grouping according to the 8th edition {#tbl-tnm-grouping_8th}
+
+</div>
+
+The TNM stage grouping according to the proposed 9th edition of the TNM classification of lung cancers is shown in @tbl-tnm-grouping_9th.
+
+<div>
+
+| **T/M** | **Label** | **N0** | **N1** | **N2a** | **N2b** | **N3** |
+|:----------|:-------------|:---------|:---------|:---------|:---------|:---------|
+| **T1** | T1a ≤ 1 cm | IA1 | IIB | IIIA | IIIA | IIIB |
+| **T1b** | \> 1 to ≤ 2 cm | IA2 | IIB | IIIA | IIIA | IIIB |
+| **T1c** | \> 2 to ≤ 3 cm | IA3 | IIB | IIIA | IIIA | IIIB |
+| **T2** | T2a ≤ 4 cm | IB | IIIA | IIIA | IIIB |  |
+| **T2b** | \> 4 to ≤ 5 cm | IIB | IIIA | IIIA | IIIB |  |
+| **T3** | \> 5 to ≤ 7 cm | IIB | IIIA | IIIB |  |  |
+| **T3** | Invasion | IIIA | IIIA | IIIB | IIIC |  |
+| **T3** | Satellite nodules | IIIA | IIIA | IIIB | IIIC |  |
+| **T4** | \> 7 cm | IIIA | IIIA | IIIB | IIIC |  |
+| **T4** | Invasion | IIIA | IIIA | IIIB | IIIC |  |
+| **T4** | Ipsilateral nodules | IIIA | IIIA | IIIB | IIIC |  |
+| **M1** | M1a Contralateral nodules | IVA | IVA | IVA | IVA |  |
+|  | M1a Pleural, pericardial effusion | IVA | IVA | IVA | IVA |  |
+|  | M1b Single extra-thoracic lesion | IVA | IVA | IVA | IVA |  |
+|  | M1c1 Multiple extra-thoracic lesions in a single organ system | IVB | IVB | IVB | IVB |  |
+|  | M1c2 Multiple extra-thoracic lesions in multiple organ systems | IVB | IVB | IVB | IVB |  |
+
+: TNM stage grouping according to the proposed 9th edition {#tbl-tnm-grouping_9th}
+
+</div>
+
+stage 1, 2는 수술 medically inoperable dearly stage NSCLC, SBRT

@@ -1,304 +1,277 @@
 [
   {
-    "objectID": "posts/regulation/transport/transport_inside.html",
-    "href": "posts/regulation/transport/transport_inside.html",
-    "title": "RI 원내이동",
+    "objectID": "posts/Oncology/SCLC/staging.html",
+    "href": "posts/Oncology/SCLC/staging.html",
+    "title": "Staging",
     "section": "",
-    "text": "제안내용: 방사성의약품생산시설이 기관 내에 있고 핵의학과로 원내 이동 시 1인이 운반할 수 있도록 보완\n\n규제지점: (현행) 방사성의약품생산시설이 기관 내에 있고 핵의학과로 원내 이동 시 2인이 운반하도록 되어 있음\n관련법규: 방사성물질등의 포장 및 운반에 관한 규정 [시행 2021. 1. 7.] [원자력안전위원회고시 제2021-2호, 2021. 1. 7., 일부개정] 제39조(운반)에 운반인원에 대한 제한사항은 없음\n개혁포인트:\n\n이동운반함 자체가 이중으로 안전하게 제작하여 운반용기를 만들어 사용하고 있음\n통신수단이 발달하지 않았던 과거에는 사고 발생 시 사고 통보 및 사고 수습 등의 활동을 위해 2인 운반이 필요했지만, 개인 통신수단이 발달한 현재는 선원의 원내 이동 시 사고가 발생하더라도 원내 상주직원(예로 보안관리팀 직원)에 즉각적인 지원 요청이 가능하므로 사고대응절차 마련으로 대응 가능\n\n문서번호: 대핵의 제2022-103호\n시행일자: 2022년 5월 4일\n수신처: 방사선기술산업연합회\n진행경과: 추적관찰 필요",
+    "text": "The definition of small cell lung cancer is divided into two stages as shown in Table 1.\n\n\n\n\nTable 1: Definition of small cell lung cancer consists of two stages\n\n\n\n\n\n\n\n\n\nStage\nDescription\n\n\n\n\nLimited Stage\nStage I-III (T any, N any, M0) that can be safely treated with definitive radiation doses. Excludes T3-4 due to multiple lung nodules that are too extensive or tumor/nodal volume too large to be encompassed in a tolerable radiation plan.\n\n\nExtensive Stage\nStage IV (T any, N any, M1a/b/c), or T3-4 due to multiple lung nodules that are too extensive or tumor/nodal volume too large to be encompassed in a tolerable radiation plan.",
     "crumbs": [
-      "규제개선 제안사항",
-      "RI운송",
-      "RI 원내이동"
+      "Oncology",
+      "SCLC",
+      "Staging"
     ]
   },
   {
-    "objectID": "posts/comments/technical_criteria/technical_criteria.html",
-    "href": "posts/comments/technical_criteria/technical_criteria.html",
-    "title": "기술기준 미준수",
+    "objectID": "posts/Oncology/NSCLC/staging.html",
+    "href": "posts/Oncology/NSCLC/staging.html",
+    "title": "Staging",
     "section": "",
-    "text": "2017년 정기점검 지적사항\n\n동 병원은 본관7층에 I-131 치료병실 2개를 운영 (’1X년~현재)하고 있는데, 동 병실에서 퇴거하는 자(방사선/능 측정을 위해 출입하는 방사선작업종사자, 청소 및 시트교체 등 관리를 위해 출입하는 자)의 인체 및 인체에 착용하고 있는 물품의 방사성물질의 오염도을 측정하지 아니함.\n\n수시출입자에 대한 방사선안전관리 규제는 비교적 명확할까요? (김병일)\n\n방사성동위원소의 사용시설 및 분배시설 출입구과 배기설비에는 방사능표지와 주의사항을 게시하여야 하나, PET/CT 촬영실 입구, 분배시설 및 배기설비 등에 표지 및 주의사항을 게시하지 아니함.",
+    "text": "The definitions of T, N, and M staging in non-small cell lung cancer are shown in Table 1.\n\n\n\n\nTable 1: Definition of non-small cell lung cancer T, N, and M staging\n\n\n\n\n\n\n\n\n\nStage\nDescription\n\n\n\n\nTX\nPrimary tumor cannot be assessed, or tumor proven by the presence of malignant cells in sputum or bronchial washings but not visualized by imaging or bronchoscopy\n\n\nT0\nNo evidence of primary tumor\n\n\nTis\nCarcinoma in situ:  - Squamous cell carcinoma in situ (SCIS)  - Adenocarcinoma in situ (AIS): adenocarcinoma with pure lepidic pattern, ≤3 cm in greatest dimension\n\n\nT1\nTumor ≤3 cm in greatest dimension, surrounded by lung or visceral pleura, without bronchoscopic evidence of invasion more proximal than the lobar bronchus (not in the main bronchus)\n\n\nT1mi\nMinimally invasive adenocarcinoma: adenocarcinoma (≤3 cm in greatest dimension) with a predominantly lepidic pattern and ≤5 mm invasion in greatest dimension\n\n\nT1a\nTumor ≤1 cm in greatest dimension. Includes superficial, spreading tumors of any size whose invasive component is limited to the bronchial wall and may extend proximal to the main bronchus (rare)\n\n\nT1b\nTumor &gt;1 cm but ≤2 cm in greatest dimension\n\n\nT1c\nTumor &gt;2 cm but ≤3 cm in greatest dimension\n\n\nT2\nTumor &gt;3 cm but ≤5 cm or having any of the following features:  - Involves the main bronchus, regardless of distance to the carina, but without involvement of the carina  - Invades visceral pleura (PL1 or PL2)  - Associated with atelectasis or obstructive pneumonitis that extends to the hilar region, involving part or all of the lung\n\n\nT2a\nTumor &gt;3 cm but ≤4 cm in greatest dimension\n\n\nT2b\nTumor &gt;4 cm but ≤5 cm in greatest dimension\n\n\nT3\nTumor &gt;5 cm but ≤7 cm in greatest dimension or directly invading any of the following: parietal pleura (PL3), chest wall (including superior sulcus tumors), phrenic nerve, parietal pericardium; or separate tumor nodule(s) in the same lobe as the primary\n\n\nT4\nTumor &gt;7 cm or tumor of any size invading one or more of the following: diaphragm, mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, carina; or separate tumor nodule(s) in an ipsilateral lobe different from that of the primary\n\n\nN\nRegional Lymph Nodes\n\n\nNX\nRegional lymph nodes cannot be assessed\n\n\nN0\nNo regional lymph node metastasis\n\n\nN1\nMetastasis in ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, including involvement by direct extension\n\n\nN2\nMetastasis in ipsilateral mediastinal and/or subcarinal lymph node(s)\n\n\nN3\nMetastasis in contralateral mediastinal, contralateral hilar, ipsilateral or contralateral scalene, or supraclavicular lymph node(s)\n\n\nM\nDistant Metastasis\n\n\nM0\nNo distant metastasis\n\n\nM1\nDistant metastasis\n\n\nM1a\nSeparate tumor nodule(s) in a contralateral lobe; tumor with pleural or pericardial nodules or malignant pleural or pericardial effusion\n\n\nM1b\nSingle extrathoracic metastasis in a single organ (including involvement of a single nonregional node)\n\n\nM1c\nMultiple extrathoracic metastases in a single organ or in multiple organs\n\n\n\n\n\n\n\nThe TNM stage grouping according to the 8th edition of the TNM classification of lung cancers is shown in Table 2.\n\n\n\n\nTable 2: TNM stage grouping according to the 8th edition\n\n\n\n\n\n\n\n\n\n\n\n\n\nT/M\nLabel\nN0\nN1\nN2\nN3\n\n\n\n\nT1\nT1a ≤ 1 cm\nIA1\nIIB\nIIIA\nIIIB\n\n\nT1b\n&gt; 1 to ≤ 2 cm\nIA2\nIIB\nIIIA\nIIIB\n\n\nT1c\n&gt; 2 to ≤ 3 cm\nIA3\nIIB\nIIIA\nIIIB\n\n\nT2\nT2a &gt; 3 to ≤ 4 cm\nIB\nIIB\nIIIA\nIIIB\n\n\nT2b\n&gt; 4 to ≤ 5 cm\nIIB\nIIB\nIIIA\nIIIB\n\n\nT3\n&gt; 5 to ≤ 7 cm\nIIB\nIIIA\nIIIB\nIIIC\n\n\nT3\nInvasion\nIIIA\nIIIA\nIIIB\nIIIC\n\n\nT3\nSatellite nodules\nIIIA\nIIIA\nIIIB\nIIIC\n\n\nT4\n&gt; 7 cm\nIIIA\nIIIA\nIIIB\nIIIC\n\n\nT4\nInvasion\nIIIA\nIIIA\nIIIB\nIIIC\n\n\nT4\nIpsilateral nodules\nIIIA\nIIIA\nIIIB\nIIIC\n\n\nM1\nM1a Contralateral nodules\nIVA\nIVA\nIVA\nIVA\n\n\n\nM1a Pleural, pericardial effusion\nIVA\nIVA\nIVA\nIVA\n\n\n\nM1b Single extrathoracic lesion\nIVA\nIVA\nIVA\nIVA\n\n\n\nM1c Multiple extrathoracic lesions\nIVB\nIVB\nIVB\nIVB\n\n\n\n\n\n\n\nThe TNM stage grouping according to the proposed 9th edition of the TNM classification of lung cancers is shown in Table 3.\n\n\n\n\nTable 3: TNM stage grouping according to the proposed 9th edition\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nT/M\nLabel\nN0\nN1\nN2a\nN2b\nN3\n\n\n\n\nT1\nT1a ≤ 1 cm\nIA1\nIIB\nIIIA\nIIIA\nIIIB\n\n\nT1b\n&gt; 1 to ≤ 2 cm\nIA2\nIIB\nIIIA\nIIIA\nIIIB\n\n\nT1c\n&gt; 2 to ≤ 3 cm\nIA3\nIIB\nIIIA\nIIIA\nIIIB\n\n\nT2\nT2a ≤ 4 cm\nIB\nIIIA\nIIIA\nIIIB\n\n\n\nT2b\n&gt; 4 to ≤ 5 cm\nIIB\nIIIA\nIIIA\nIIIB\n\n\n\nT3\n&gt; 5 to ≤ 7 cm\nIIB\nIIIA\nIIIB\n\n\n\n\nT3\nInvasion\nIIIA\nIIIA\nIIIB\nIIIC\n\n\n\nT3\nSatellite nodules\nIIIA\nIIIA\nIIIB\nIIIC\n\n\n\nT4\n&gt; 7 cm\nIIIA\nIIIA\nIIIB\nIIIC\n\n\n\nT4\nInvasion\nIIIA\nIIIA\nIIIB\nIIIC\n\n\n\nT4\nIpsilateral nodules\nIIIA\nIIIA\nIIIB\nIIIC\n\n\n\nM1\nM1a Contralateral nodules\nIVA\nIVA\nIVA\nIVA\n\n\n\n\nM1a Pleural, pericardial effusion\nIVA\nIVA\nIVA\nIVA\n\n\n\n\nM1b Single extra-thoracic lesion\nIVA\nIVA\nIVA\nIVA\n\n\n\n\nM1c1 Multiple extra-thoracic lesions in a single organ system\nIVB\nIVB\nIVB\nIVB\n\n\n\n\nM1c2 Multiple extra-thoracic lesions in multiple organ systems\nIVB\nIVB\nIVB\nIVB\n\n\n\n\n\n\n\n\nstage 1, 2는 수술 medically inoperable dearly stage NSCLC, SBRT",
     "crumbs": [
-      "정기점검 지적사항",
-      "기술기준",
-      "기술기준 미준수"
+      "Oncology",
+      "NSCLC",
+      "Staging"
     ]
   },
   {
-    "objectID": "posts/comments/recording/recording.html",
-    "href": "posts/comments/recording/recording.html",
-    "title": "기록비치 부적합",
+    "objectID": "posts/Oncology/Anal_Carcinoma/staging.html",
+    "href": "posts/Oncology/Anal_Carcinoma/staging.html",
+    "title": "Staging",
     "section": "",
-    "text": "2017년 정기점검 지적사항\n\n허가 사용자는 방사선장해의 우려가 있는 사용장소에 대하여 정해진 시기에 따라 방사선량 및 방사성오염을 측정, 기록하여야 하나 해당 핵의학과 동위원소실의 방사선량 측정, 기록한 값(201X.O.O~현재)을 다음 사유 등으로 인해 신뢰할 수 없음. 측정장비(방사선량 및 방사능오염측정 겸용기기 1대) 교정기간 동안 (교정기간에 의뢰, 처리 약 2주 소요)에 측정값 기록 및 방사선안전관리자 교체 전후에 동일 필체 기록\n방사성동위원소의 보관 및 사용한 때 마다 일시, 장소, 방법, 목적, 종사자 성명, 종류 및 수량을 기록하여야 하나, 동 기관은 다음의 사항을 누락함\n\nMo/Tc-99m 제너레이터 취득, 보관 시 일시, 장소 종사자 성명\nMo/Tc-99m 및 F-18 사용 시 장소, 종사자 성명\n\n방사성동위원소 또는 방사성동위원소 오염물의 배출은 배출한 때마다 기록(일시, 방법, 종사자 성명, 종류 및 배출량) 하고 관리하여야 하나 이를 준수하지 않아 지적함.\n\n배출량: OOO 리터\n배출기간: 2009.O.O. ~ 2014.O.O)",
+    "text": "T Stage\nAJCC 8th Edition\nAJCC 9th Edition\n\n\n\n\nT1\nTumor ≤2 cm in greatest dimension\nTumor ≤2 cm in greatest dimension\n\n\nT2\nTumor &gt;2 cm but ≤5 cm in greatest dimension\nTumor &gt;2 cm but ≤5 cm in greatest dimension\n\n\nT3\nTumor &gt;5 cm in greatest dimension\nTumor &gt;5 cm in greatest dimension\n\n\nT4\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\n\n\nT4a\nNot applicable\nTumor involving the skin of the perianal area\n\n\nT4b\nNot applicable\nTumor invading adjacent structures (vagina, urethra, bladder, etc.)\n\n\n\nNote: The main difference between the AJCC 8th and 9th Editions is the subdivision of T4 into T4a and T4b in the 9th Edition, which provides a more detailed categorization for advanced local disease.",
     "crumbs": [
-      "정기점검 지적사항",
-      "기록비치",
-      "기록비치 부적합"
+      "Oncology",
+      "Anal Carcinoma",
+      "Staging"
     ]
   },
   {
-    "objectID": "posts/comments/management_requirement/management_requirement.html",
-    "href": "posts/comments/management_requirement/management_requirement.html",
-    "title": "안전관리규정 미준수",
+    "objectID": "posts/Oncology/Anal_Carcinoma/staging.html#t-stage",
+    "href": "posts/Oncology/Anal_Carcinoma/staging.html#t-stage",
+    "title": "Staging",
     "section": "",
-    "text": "2017년 정기점검 지적사항\n\n동 기관의 방사선안전관리규정 제5조(직무)에 의하면 방사선안전관리자는 병원장을 보좌하여 방사선장해방어상 필요한 방사선안전관리업무를 총괄하여 수행하여야 하나, 동병원 방사선안전관리자 OOO(특수면허 OO호), OOO(감독면허 OO호), OOO(일반면허 OOO호)는 핵의학과 시설 추가에 따른 시설검사를 변경허가 후 즉시 시행하지 않고 2년 동안 지연하여, 방사선안전관리업무를 총괄하여 수행하는 직무를 적합하게 수행하지 않았으므로 이를 지적함.\n동 기관은 안전관리규정 제15조 (장비의 보정 등)에 규정한 주기(국립기술표준원장이 정하는 검교정 기간)마다 방사선능 측정기에 대한 교정을 실시하여야 하나 최초 허가를 득하고 사용을 개시한 시점 (201X년 2월 6일) 이래 현재까지 교정을 실시하지 않았음.",
+    "text": "T Stage\nAJCC 8th Edition\nAJCC 9th Edition\n\n\n\n\nT1\nTumor ≤2 cm in greatest dimension\nTumor ≤2 cm in greatest dimension\n\n\nT2\nTumor &gt;2 cm but ≤5 cm in greatest dimension\nTumor &gt;2 cm but ≤5 cm in greatest dimension\n\n\nT3\nTumor &gt;5 cm in greatest dimension\nTumor &gt;5 cm in greatest dimension\n\n\nT4\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\n\n\nT4a\nNot applicable\nTumor involving the skin of the perianal area\n\n\nT4b\nNot applicable\nTumor invading adjacent structures (vagina, urethra, bladder, etc.)\n\n\n\nNote: The main difference between the AJCC 8th and 9th Editions is the subdivision of T4 into T4a and T4b in the 9th Edition, which provides a more detailed categorization for advanced local disease.",
     "crumbs": [
-      "정기점검 지적사항",
-      "안전관리규정",
-      "안전관리규정 미준수"
+      "Oncology",
+      "Anal Carcinoma",
+      "Staging"
     ]
   },
   {
-    "objectID": "posts/comments/index.html",
-    "href": "posts/comments/index.html",
-    "title": "정기점검 지적사항",
-    "section": "",
-    "text": "원자력안전기술원 공개자료를 데이터베이스화 하는 과정이며\n지금 단계에서는 테스트를 위해 일부 (2017년 워큭=샵에서 발표된) 자료만를 이용하여 사이드바메뉴 형태로 구현되어 있습니다.\n현재까지의 테스트 결과에서는\n\n지적사항을 어떻게 분류해야 좋을지\n데이터베이스를 만들 때 어떤 세부항목들을 입력해야 할지\n\n병원을 익명으로 하지만, 어떤 병원이 반복적인 문제가 있다면 익명성을 가지면서도 이러한 현상을 반영할 수 있는 방법이 있을 지\n\n고민이 필요합니다.",
+    "objectID": "posts/Oncology/Anal_Carcinoma/staging.html#n-stage",
+    "href": "posts/Oncology/Anal_Carcinoma/staging.html#n-stage",
+    "title": "Staging",
+    "section": "N stage",
+    "text": "N stage\n\n\n\n\n\n\n\n\nN Stage\n8th Edition\n9th Edition\n\n\n\n\nN0\nNo regional lymph node metastasis\nNo regional lymph node metastasis\n\n\nN1a\nMetastasis in inguinal, mesorectal, or internal iliac lymph nodes\nMetastasisTumor involvement of inguinal, mesorectal, superior rectal, internal iliac, or obturator lymph node(s)\n\n\nN1b\nMetastasis in external iliac lymph nodes (rare, but included when associated with inguinal or internal iliac)\nMetastasis in external iliac lymph nodes (same as 8th edition)\n\n\nN1c\nMetastasis in multiple regional lymph nodes (combination of N1a and N1b sites)\nMetastasis in multiple regional lymph nodes (combination of N1a and N1b sites)\n\n\nChanges\n-\nClarification in definitions, improved staging accuracy",
     "crumbs": [
-      "정기점검 지적사항"
+      "Oncology",
+      "Anal Carcinoma",
+      "Staging"
     ]
   },
   {
-    "objectID": "posts/comments/facilities/facilities.html",
-    "href": "posts/comments/facilities/facilities.html",
-    "title": "시설검사 미 수검",
-    "section": "",
-    "text": "2017년 정기점검 지적사항\n\n방사성동위원소 사용허가자는 허가받은 사용시설등의 변경사항이 있을 경우 사용변경허가 및 시설검사에 합격한 후 사용하여야 하나, 동사업자소는 변경된 허가시설에 대하여 사용변경허가를 득한 후(방사선관리과-2XXX) 시설검사를 받지 아니하고 해당 시설을 사용하고 있음.\n서류상의 KINS 지적에는 해당병원 방사선안전관리자가 시설검사를 받지 않은 이유가 나타나 있지 않습니다. 자세한 내용이 있다면 더 도움이 될 것입니다.\n개선조치계획이 어떻게 제출되었고 차기년도 점검에서는 개선되었는지 내용 추가가 필요합니다. (2024-11-17 김병일 제안)",
+    "objectID": "posts/Oncology/Anal_Carcinoma/staging.html#m-stage",
+    "href": "posts/Oncology/Anal_Carcinoma/staging.html#m-stage",
+    "title": "Staging",
+    "section": "M stage",
+    "text": "M stage",
     "crumbs": [
-      "정기점검 지적사항",
-      "시설검사",
-      "시설검사 미 수검"
+      "Oncology",
+      "Anal Carcinoma",
+      "Staging"
     ]
   },
   {
-    "objectID": "posts/comments/education/licensee_education.html",
-    "href": "posts/comments/education/licensee_education.html",
-    "title": "면허자 보수교육 미 실시",
+    "objectID": "posts/IT/Rasberry_Pi/setup.html",
+    "href": "posts/IT/Rasberry_Pi/setup.html",
+    "title": "setup",
     "section": "",
-    "text": "2017년 정기점검 지적사항\n\n방사선안전관리자는 3년마다 보수교육을 받아야 하나 다음과 같이 이를 위반하였음.\n\n대상자: OOO\n해당년도: 2014(2011년 보수교육 이수)\n위반내용: 2011년 이후 보수교육을 이수하지 아니하였음",
+    "text": "Figure 1 는 2024년 11월 16일 현재 우리집 Rassberry Pi에 사용중인 마이크로 SD (Secure Digital) 카드이다. 초기의 FAT16파일시스템을 사용하여 용량이 2 GB로 제한되었으나 이 제품은 FAT32파일시스템을 사용한 SDHC (Secure Digial High Capacity) 제품이다. Class라 부르며 기록을 할 수 있는 속도를 우측이 비어있는 원안에 표시를 한다. 우리집 것은 10이 있으며 이는 기록속도가 초당 10 MB라는 의미이다.\n요약하자면\n\nFAT32 파일시스템\n32 GB 저장용량\nClass 10 (= 초당 10 MB) 기록속도\n\n\n\n\n\n\n\nFigure 1: 마이크로 SD 카드",
     "crumbs": [
-      "정기점검 지적사항",
-      "교육",
-      "면허자 보수교육 미 실시"
+      "IT",
+      "Rasberry Pi",
+      "setup"
     ]
   },
   {
-    "objectID": "posts/comments/damage_management/damage_management.html",
-    "href": "posts/comments/damage_management/damage_management.html",
-    "title": "피폭관리 부적합",
+    "objectID": "posts/IT/Rasberry_Pi/setup.html#마이크로-sd-카드",
+    "href": "posts/IT/Rasberry_Pi/setup.html#마이크로-sd-카드",
+    "title": "setup",
     "section": "",
-    "text": "2017년 정기점검 지적사항\n\n동 의원은 건강검진용 PET-CT를 운용하기 위하여 개봉 방사성동위원소(F-18 )를 사용하는 기관으로 방사선장해를 방지하기 위하여 방사선작업종사에 대해 피폭관리를 시행해야 하나 실시하여야 하나, 사용개시일부터 검사일 현재까지 F-18을 환자에게 직접 투여하는 간호사 3인에 대해 방사선작업종사자 피폭관리를 하지 아니함.\n동 기관은 2010년 4/4분기에 개인선량계를 분실한 판독특이자(OOO 방사성동위원소특수면허 소지자)에 대하여 원자력안전법 관련법령에 따라 판독특이자가 발생한 날로부터 20일 이내에 한국원자력안전기술원장에게 보고하여야 하나, 보고 기간을 초과하여 지연 보고 하였음.\n\nTLD 배지를 목에 거는 명찰에 부착하고, 근무시간에는 명찰을 항상 착용하고 있으면, TLD 배지를 항상 착용하는 효과가 있고, 분실시에도 쉽게 인지할 수 있지 않을까요? (2024년 11월 17일 김병일 제안)",
+    "text": "Figure 1 는 2024년 11월 16일 현재 우리집 Rassberry Pi에 사용중인 마이크로 SD (Secure Digital) 카드이다. 초기의 FAT16파일시스템을 사용하여 용량이 2 GB로 제한되었으나 이 제품은 FAT32파일시스템을 사용한 SDHC (Secure Digial High Capacity) 제품이다. Class라 부르며 기록을 할 수 있는 속도를 우측이 비어있는 원안에 표시를 한다. 우리집 것은 10이 있으며 이는 기록속도가 초당 10 MB라는 의미이다.\n요약하자면\n\nFAT32 파일시스템\n32 GB 저장용량\nClass 10 (= 초당 10 MB) 기록속도\n\n\n\n\n\n\n\nFigure 1: 마이크로 SD 카드",
     "crumbs": [
-      "정기점검 지적사항",
-      "피폭관리",
-      "피폭관리 부적합"
+      "IT",
+      "Rasberry Pi",
+      "setup"
     ]
   },
   {
-    "objectID": "posts/comments/change_approval/change_approval.html",
-    "href": "posts/comments/change_approval/change_approval.html",
-    "title": "변경허가 미신청",
-    "section": "",
-    "text": "2017년 정기점검 지적사항\n\n동 기관은 개봉선원 I-131 및 Tl-201의 연간 허가량을 아래와 같이 초과 사용 하였음.\n\n핵종별 연간허가량\n\nI-131: 13,320 MBq, Tl-201: 29,690 MBq\n\n초과사용량(해당시기)\n\nI-131: 111,999 MBq (2012년도), 136,197 MBq (2013.1.1~9.10)\nTl-201: 15,022 MBq (2012년도), 37 Mq (2013.1.1~9.10)\n\n참고사항: Tl-201의 2013년도 사용량은 초과사용량에 해당하지 않으므로 오류가 있어 보입니다만, 원문에 충실하기 위해 그대로 사용했습니다. (김병일)\n\n\n\n방사성동위원소 허가사용자는 년간 허가량 범위 내에서 개봉방사성동위원소를 취득 사용하여야 하나 동병원은 Mo-99의 년간 허가량 ( 1,850 GBq)을 초과하여 2011년에는 1,905.5 GBq, 2012년에는 1,961 GBq 취득하였음.",
+    "objectID": "posts/IT/Rasberry_Pi/setup.html#raspberry-pi-setup",
+    "href": "posts/IT/Rasberry_Pi/setup.html#raspberry-pi-setup",
+    "title": "setup",
+    "section": "Raspberry Pi setup",
+    "text": "Raspberry Pi setup\n\n설치파일 다운로드\n공식사이트에서 라즈베리파이 설치 이미지파일을 다운로드 받는다 (https://www.raspberrypi.com/software/). 2024년 11월 16일 현재 원도우용 최신 설치이미지파일은 imager_1.8.5.exe이다.\n\n\nSD카드에 OS설치\n이미지설치파일을 실행하여\n\n운영체제를 선택하고…\nCustomizing OS에서 아래의 사항들을 선택하고 진행한다.\n\nEnable SSH checkbox 선택하여 진행하면\n\npi user에 대한 password 설정해야 하고\n\n-   password를 default `raspberry`로 진행한다면 이후 변경해야 함\nConfigure Wifi 선택하여 진행하면\n\nSSID: ??_ ????????????\nPassword: ??????????\n\n\n설치가 완료가 완료되면 사용 가능한 상태가 된다.\n\n\n\nSSH 접속\n\nAndroid에서는 SSH 클라이언트를 설치하여 접속한다. 대표적인 SSH 클라이언트는 다음과 같다.\n\nTermius: Android에서도 사용 가능하며 플랫폼 간 동기화 지원.\nJuiceSSH: 인기 있는 Android SSH 클라이언트, 무료 및 유료 플랜 제공.\nConnectBot: 오픈소스이며 가벼운 SSH 클라이언트.\n\nRaspberry Pi의 IP를 알기위해 Android 용 Network Discovery가 추천된다.\nWindows에서는 PuTTY를 사용한다.\n\n\n\nVNC 접속\n\nsudo raspi-config\n\nVNC enable을 선택하여 활성화한다. 해상도 설정\n안드로이드용 AVNC를 설치하여 접속",
     "crumbs": [
-      "정기점검 지적사항",
-      "변경허가",
-      "변경허가 미신청"
+      "IT",
+      "Rasberry Pi",
+      "setup"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "posts/about.html",
+    "href": "posts/about.html",
     "title": "사이트사용법",
     "section": "",
-    "text": "이 웹사이트는 top tiitle 메뉴에 속하는 sidebar 메뉴에 따라 각 웹페이지가 배정되어 있읍니다. 그러면서도 각 페이지들은 모두 블로그에서도 보이게 됩니다. 블로그는 수정된 날짜 (원하는 경우에서는 등록된 날짜의) 역순으로 나열되어 있습니다.\n\n이는 체계적인 메뉴의 분류에 따라서 해당 페이지를 찾아갈 수도 있지만\n등록된 날짜순이나\n수정된 날짜순으로도 내용을 확인할 수 있음을 의미합니다.\n\n댓글 기능은 guthub에 가입해야 가능합니다."
+    "text": "이 웹사이트는 저자가 공부한 것을 정리한 것입니다.\ntop tiitle 메뉴에 속하는 sidebar 메뉴에 따라 각 웹페이지가 배정되어 있읍니다. 그러면서도 각 페이지들은 모두 블로그에서도 보이게 됩니다. 블로그는 최종 수정된 날짜의 역순이 기본값입니다.\n\n이는 체계적인 메뉴의 분류에 따라서 해당 페이지를 찾아갈 수도 있지만\n등록된 날짜순이나\n수정된 날짜순으로도 내용을 확인할 수 있음을 의미합니다.\n\n댓글 기능은 guthub에 가입해야 가능합니다."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "블로그",
     "section": "",
-    "text": "Anal Carcinoma Staging\n\n\n\n\n\n\nAnal Carcinoma\n\n\nstaging\n\n\n\n\n\n\n\n\n\nNov 21, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nPET/CT Interpretation\n\n\n\n\n\n\nPET/CT\n\n\nInterpretation\n\n\n\n\n\n\n\n\n\nNov 21, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nPET/CT Interpretation\n\n\n\n\n\n\nPET/CT\n\n\nInterpretation\n\n\n\n\n\n\n\n\n\nNov 21, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nAnal Carcinoma Staging\n\n\n\n\n\n\nAnal Carcinoma\n\n\nstaging\n\n\n\n\n\n\n\n\n\nNov 21, 2024\n\n\nBenKorea\n\n\n\n\n\n\nNo matching items"
+    "text": "Anatomy\n\n\n\n\n\n\nanatomy\n\n\n\nanatomy 공부한 것을 정리\n\n\n\n\n\nNov 21, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nPelvis\n\n\n\n\n\n\npelvis\n\n\nlympn node\n\n\nstation\n\n\n\npelic LN stataion definition에 대해 정리할 예정\n\n\n\n\n\nNov 21, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nStaging\n\n\n\n\n\n\nAnal Carcinoma\n\n\nstaging\n\n\nAJCC 8th\n\n\nAJCC 9th\n\n\n\nAnal Carcinoma AJCC 8th & AJCC 9th staging 비교\n\n\n\n\n\nNov 21, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nOncology\n\n\n\n\n\n\noncology\n\n\n\n\n\n\n\n\n\nNov 21, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nStaging\n\n\n\n\n\n\nNSCLC\n\n\nstaging\n\n\n\nNSCLC AJCC 8th editiopn (2017)\n\n\n\n\n\nNov 18, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nIT\n\n\n\n\n\n\nIT\n\n\n\n구축한 & 구축하고자 하는 시스템에 대한 조사 및 설명\n\n\n\n\n\nNov 16, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nsetup\n\n\n\n\n\n\nRasberry pi\n\n\nsetup\n\n\n\n라즈베리파이 설치\n\n\n\n\n\nNov 16, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\n구성 예시\n\n\n\n\n\n\nsilent PC\n\n\nsetup\n\n\n\n무소음PC의 구성 예시\n\n\n\n\n\nNov 16, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nStaging\n\n\n\n\n\n\nProstate cancer\n\n\nstaging\n\n\nAJCC 8th\n\n\n\nProstate cancer AJCC 8th editiopn (2017)\n\n\n\n\n\nOct 14, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nStaging\n\n\n\n\n\n\nSCLC\n\n\nstaging\n\n\nAJCC 8th\n\n\n\nSCLC AJCC 8th editiopn (2017)\n\n\n\n\n\nOct 14, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\n사이트사용법\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nBenkorea\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/comments/change_notification/change_notification.html",
-    "href": "posts/comments/change_notification/change_notification.html",
-    "title": "변경신고 미신고",
+    "objectID": "posts/IT/silent_pc/silent_pc.html",
+    "href": "posts/IT/silent_pc/silent_pc.html",
+    "title": "구성 예시",
     "section": "",
-    "text": "2017년 정기점검 지적사항\n\n원자력안전법 제53조(방사성동위원소, 방사선발생장치 사용 등의 허가 등) 1항 단서조항 및 시행규칙 63조 (경미한 사항의 변경신고) 1항 2호 가목에 따라 방사성동위원소의 수량이 감소한 경우, 30일 이내에 신고하여야 함. 동 사업소는 ’201X년 11월, Ge-68 83 MBq x1, 46 MBq x2를 양도하여 수량을 6개에서 3개로 감량하였으나, 그 사실을 신고하지 않았음.",
+    "text": "목표: 팬리스(Fanless) 시스템 구축\n중점 요소:\n\nCPU, PSU, 저장 장치에서 소음 발생 최소화\n공기 흐름이 원활한 매쉬형 케이스 선택\n140mm 팬을 저RPM으로 설정하여 발열 문제 해결",
     "crumbs": [
-      "정기점검 지적사항",
-      "변경신고",
-      "변경신고 미신고"
+      "IT",
+      "무소음 PC",
+      "구성 예시"
     ]
   },
   {
-    "objectID": "posts/comments/disposal/disposal.html",
-    "href": "posts/comments/disposal/disposal.html",
-    "title": "자체처분 부적합",
-    "section": "",
-    "text": "2017년 정기점검 지적사항\n\n당초 제출된 자체처분계획서에는 총 OO L를 자체 처분할 것으로 신고하였으나 동병원의 폐기물관리 기록상 자체처분한 양은 OOL 였음.\n개선조치계획이 어떻게 제출되었고 차기년도 점검에서는 개선되었는지 내용 추가가 필요함 (2024-11-17 김병일 제안)",
+    "objectID": "posts/IT/silent_pc/silent_pc.html#cpu-선택",
+    "href": "posts/IT/silent_pc/silent_pc.html#cpu-선택",
+    "title": "구성 예시",
+    "section": "2.1 CPU 선택",
+    "text": "2.1 CPU 선택\n\n비교 모델: Intel Core i3-13100T vs Intel Core i5-9500\n최종 선택: Intel Core i3-13100T (35W 저전력)\n이유:\n\n저전력(35W)으로 발열이 적음\n4코어 8스레드로 팬리스 환경에서도 성능 유지 가능\n최신 DDR5 및 PCIe 5.0 지원 → 확장성 높음",
     "crumbs": [
-      "정기점검 지적사항",
-      "자체처분",
-      "자체처분 부적합"
+      "IT",
+      "무소음 PC",
+      "구성 예시"
     ]
   },
   {
-    "objectID": "posts/comments/education/worker_education.html",
-    "href": "posts/comments/education/worker_education.html",
-    "title": "방사선작업종사자교육 미실시",
-    "section": "",
-    "text": "2017년 정기점검 지적사항\n\n원자력관계사업자는 방사선작업종사자에게 대통령령으로 정하는 바에 따라 원자력이용에 따르는 안전성확보 및 방사선장해방지에 필요한 교육훈련을 실시하여야 하나 이를 준수하지 않았음\n\n대상자: OOO(2010년 미실시)\n\n신규종사자에 대한 교육은 방사선작업종사 개시 전에 실시하여야 하나, 종사 개시 후 실시하였음\n\nOOO(종사개시일: 2015.4.1., 기본: 2015.5.4., 직장: 2015.4.29)\nOOO(종사개시일: 2016.4.8., 기본: 2016.5.31., 직장: 2016.4.27)\nOOO(종사개시일: 2016.7.1., 기본: 2015.7.26., 직장: 2015.7.27)\nOOO(종사개시일: 2016.9.6., 기본: 2016.9.27., 직장: 2016.9.28)",
+    "objectID": "posts/IT/silent_pc/silent_pc.html#cpu-쿨러-선택",
+    "href": "posts/IT/silent_pc/silent_pc.html#cpu-쿨러-선택",
+    "title": "구성 예시",
+    "section": "2.2 CPU 쿨러 선택",
+    "text": "2.2 CPU 쿨러 선택\n\n비교 모델: NOFAN 아이스파이프 vs Noctua NH-P1\n최종 선택: NOFAN 아이스파이프\n이유:\n\n팬 없이도 80W 이하 CPU 냉각 가능\n크기가 작아 케이스 내부 공간 활용성이 높음\n저소음 시스템에 최적",
     "crumbs": [
-      "정기점검 지적사항",
-      "교육",
-      "방사선작업종사자교육 미실시"
+      "IT",
+      "무소음 PC",
+      "구성 예시"
     ]
   },
   {
-    "objectID": "posts/comments/health_examination/health_examination.html",
-    "href": "posts/comments/health_examination/health_examination.html",
-    "title": "건강진단 부적합",
-    "section": "",
-    "text": "2017년 정기점검 지적사항\n\n원자력관계사업자는 방사선장해를 방지하기 위하여 방사선작업종사자에게 건강진단을 실시하여야 하나 이를 준수하지 않아서 이를 지적함\n\n종사자 건강진단 미실시: OOO, OOO(2009년)\n신규종사자 건강진단 미실시: OOO(종사개시: 2012.2.8, 건강진단: 2012.2.10)\n\n원자력안전법 시행규칙 제121조(건강진단) 2항2호에 따라 방사선작업종사자는 매년 건강검진을 받아야 하나, 동 병원은 201X년도 방사선작업종사자 12명 중 OOO(종양학과 과장, 1X년 퇴사) 및 OOO(종양학과 의학물리사 , 1X년 퇴사) 2명이 방사선작업종사자로 등록되었으나, 건강검진을 받지 않았었음.",
+    "objectID": "posts/IT/silent_pc/silent_pc.html#마더보드-선택",
+    "href": "posts/IT/silent_pc/silent_pc.html#마더보드-선택",
+    "title": "구성 예시",
+    "section": "2.3 마더보드 선택",
+    "text": "2.3 마더보드 선택\n\n비교 모델: ASRock B760M-HDV/M.2 (M-ATX) vs ATX 보드\n최종 선택: ASRock B760M-HDV/M.2 (M-ATX)\n이유:\n\nPCIe 5.0 및 최신 DDR5 지원\nM-ATX 폼팩터로 공간 절약 가능\n팬리스 시스템에서 추가 확장이 필요하지 않음",
     "crumbs": [
-      "정기점검 지적사항",
-      "건강진단",
-      "건강진단 부적합"
+      "IT",
+      "무소음 PC",
+      "구성 예시"
     ]
   },
   {
-    "objectID": "posts/comments/licenses_criteria/licenses_criteria.html",
-    "href": "posts/comments/licenses_criteria/licenses_criteria.html",
-    "title": "인력/장비기준 미달",
-    "section": "",
-    "text": "2017년 정기점검 지적사항\n\n동 병원은 휴지(2016.10.14)시 까지 방사성동위원소 (Mo/Tc-99m)를 취득, 사용하였으나, 방사선안전관리자(OOO)의 퇴직에 따른 해임(2016.6.28) 후 방사선안전관리자를 선임하지 않은 바, 인력기준을 위반하였음.\n동 병원은 다음 기간 동안 방사성동위원소취급특수면허 소지자 의 근무가 확인되지 아니함\n\n20XX년 3월 12일(최초허가) ~ 20XX년 4월 5일 기간 중 OOO(면허번호 OOO)이 안전관리자로 등재되었으나, 근무기록이 확인되지 아니함.\n20XX년 7월 ~ 20XX년 1월 29일 기간 중 OOO(면허번호 OOO)이 안전관리자로 등재되었으나, 근무기록이 확인되지 아니함.",
+    "objectID": "posts/IT/silent_pc/silent_pc.html#스토리지-선택",
+    "href": "posts/IT/silent_pc/silent_pc.html#스토리지-선택",
+    "title": "구성 예시",
+    "section": "2.4 스토리지 선택",
+    "text": "2.4 스토리지 선택\n\n비교 모델: PCIe 3.0 vs PCIe 4.0 NVMe SSD\n최종 선택: Crucial P3 1TB PCIe 3.0 NVMe SSD\n이유:\n\nPCIe 4.0 대비 발열이 적음\n무소음 유지 가능 (HDD 사용 X)\n충분한 속도 제공 (3500MB/s)",
     "crumbs": [
-      "정기점검 지적사항",
-      "인력기준",
-      "인력/장비기준 미달"
+      "IT",
+      "무소음 PC",
+      "구성 예시"
     ]
   },
   {
-    "objectID": "posts/comments/measurement/measurement.html",
-    "href": "posts/comments/measurement/measurement.html",
-    "title": "측정 부적합",
-    "section": "",
-    "text": "2017년 정기점검 지적사항\n\n개봉선원을 사용하는 경우 방사성물질로 오염된 물체의 표면오염도를 작업을 할 때마다 측정하고 기록하여야 하나, 동 병원은 개봉선원을 매일 사용하는 방사선사용구역의 표면오염도를 주1회만 측정하여 기록하고 있음\n동 병원의 핵의학과의 경우 별도의 오염사고 발생사례가 없었으나, 표면오염도 측정기록이 다음과 같이 사실과 달라 실측한 기록으로 볼수가 없음.\n\n감마카메라실 표면오염도의 경우 동 정기검사시 측정한 기록은 0.05 Bq/cm2 수준이나, 동 병원의 측정기록은 35 Bq/cm2 수준 임",
+    "objectID": "posts/IT/silent_pc/silent_pc.html#케이스-선택",
+    "href": "posts/IT/silent_pc/silent_pc.html#케이스-선택",
+    "title": "구성 예시",
+    "section": "2.5 케이스 선택",
+    "text": "2.5 케이스 선택\n\n비교 모델: JONSBO UMX3 vs Fractal Meshify 2 XL vs 3RSYS L600 Quiet\n최종 선택: 3RSYS L600 Quiet (미들타워, 140mm 팬 4개 포함)\n이유:\n\n기본적으로 저소음 팬 제공\n메쉬형 설계로 공기 흐름 극대화\n강화유리 패널로 디자인 유지 가능",
     "crumbs": [
-      "정기점검 지적사항",
-      "오염측정",
-      "측정 부적합"
+      "IT",
+      "무소음 PC",
+      "구성 예시"
     ]
   },
   {
-    "objectID": "posts/comments/reporting/reporting.html",
-    "href": "posts/comments/reporting/reporting.html",
-    "title": "보고, 검사 등 누락보고",
-    "section": "",
-    "text": "2017년 정기점검 지적사항\n\n원자력안전법 제98조(보고, 검사 등) 1항에 따라 개봉선원의 사용 등에 관한 관리현황을 보고하여야 하나, 액체 폐기물에 대한 폐기현황을 누락한 채 보고하였음. 3단 저류조(6.3톤 크기)에 수집하여 약 월 1회 배출함에도 분기보고 시 이에 대한 보고를 하지 않음(약 2년여 기간)",
+    "objectID": "posts/IT/silent_pc/silent_pc.html#파워-서플라이psu-선택",
+    "href": "posts/IT/silent_pc/silent_pc.html#파워-서플라이psu-선택",
+    "title": "구성 예시",
+    "section": "2.6 파워 서플라이(PSU) 선택",
+    "text": "2.6 파워 서플라이(PSU) 선택\n\n비교 모델: Seasonic Prime Fanless 500W vs 일반 PSU\n최종 선택: Seasonic Prime Fanless 500W (Platinum 인증)\n이유:\n\n완전 팬리스 설계로 무소음 유지\n고효율 (80+ Platinum)로 발열 최소화\n장기간 안정적인 전력 공급 가능",
     "crumbs": [
-      "정기점검 지적사항",
-      "보고",
-      "보고, 검사 등 누락보고"
+      "IT",
+      "무소음 PC",
+      "구성 예시"
     ]
   },
   {
-    "objectID": "posts/regulation/index.html",
-    "href": "posts/regulation/index.html",
-    "title": "규제개선 제안사항",
-    "section": "",
-    "text": "규제개선이 필요한 사항들을 정리하는 곳입니다.",
+    "objectID": "posts/IT/silent_pc/silent_pc.html#냉각-솔루션-최적화-팬-설정",
+    "href": "posts/IT/silent_pc/silent_pc.html#냉각-솔루션-최적화-팬-설정",
+    "title": "구성 예시",
+    "section": "2.7 냉각 솔루션 최적화 (팬 설정)",
+    "text": "2.7 냉각 솔루션 최적화 (팬 설정)\n\n비교: 120mm 팬 vs 140mm 팬\n최종 선택: 140mm 팬 사용 (기본 장착, 저RPM 설정)\n이유:\n\n600~800RPM 저속 설정으로 무소음 유지 가능\n120mm 팬 대비 저RPM에서도 동일한 풍량 제공\nBIOS에서 PWM 모드 설정하여 자동 속도 조절 가능",
     "crumbs": [
-      "규제개선 제안사항"
+      "IT",
+      "무소음 PC",
+      "구성 예시"
     ]
   },
   {
-    "objectID": "posts/regulation/reporting/reporting_duplicated.html",
-    "href": "posts/regulation/reporting/reporting_duplicated.html",
-    "title": "보고중복",
+    "objectID": "posts/Oncology/prostate/staging.html",
+    "href": "posts/Oncology/prostate/staging.html",
+    "title": "Staging",
     "section": "",
-    "text": "제안내용: 방사선 검사 및 보고분야 중복규제 개선\n\n규제지점: (현행) 이미 보고한 사항에 대한 중복검사\n관련법규: 원자력안전법 제56조 및 제75조\n개혁포인트:\n\n원자력안전재단에 보고사항과 정기검사의 내용이 중복됨\n중복사항: 종사자 피폭선량, 건강검진여부, 교육여부\n\n문서번호: 대핵의 제2022-103호\n시행일자: 2022년 5월 4일\n수신처: 방사선기술산업연합회\n진행경과: 추적관찰 필요",
+    "text": "Table 1: Definition of clinical stages\n\n\n\n\n\n\n\n\n\ncT\nDescription\n\n\n\n\nTX\nPrimary tumor cannot be assessed\n\n\nT0\nNo evidence of primary tumor\n\n\nT1\nClinically inapparent tumor that is not palpable\n\n\nT1a\nTumor incidental histologic finding in 5% or less of tissue resected\n\n\nT1b\nTumor incidental histologic finding in more than 5% of tissue resected\n\n\nT1c\nTumor identified by needle biopsy found in one or both sides, but not palpable\n\n\nT2\nTumor is palpable and confined within prostate\n\n\nT2a\nTumor involves one-half of one side or less\n\n\nT2b\nTumor involves more than one-half of one side but not both sides\n\n\nT2c\nTumor involves both sides\n\n\nT3\nExtraprostatic tumor that is not fixed or does not invade adjacent structures\n\n\nT3a\nExtraprostatic extension (unilateral or bilateral)\n\n\nT3b\nTumor invades seminal vesicle(s)\n\n\nT4\nTumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall"
+  },
+  {
+    "objectID": "posts/Oncology/prostate/staging.html#clinical-t-staging",
+    "href": "posts/Oncology/prostate/staging.html#clinical-t-staging",
+    "title": "Staging",
+    "section": "",
+    "text": "Table 1: Definition of clinical stages\n\n\n\n\n\n\n\n\n\ncT\nDescription\n\n\n\n\nTX\nPrimary tumor cannot be assessed\n\n\nT0\nNo evidence of primary tumor\n\n\nT1\nClinically inapparent tumor that is not palpable\n\n\nT1a\nTumor incidental histologic finding in 5% or less of tissue resected\n\n\nT1b\nTumor incidental histologic finding in more than 5% of tissue resected\n\n\nT1c\nTumor identified by needle biopsy found in one or both sides, but not palpable\n\n\nT2\nTumor is palpable and confined within prostate\n\n\nT2a\nTumor involves one-half of one side or less\n\n\nT2b\nTumor involves more than one-half of one side but not both sides\n\n\nT2c\nTumor involves both sides\n\n\nT3\nExtraprostatic tumor that is not fixed or does not invade adjacent structures\n\n\nT3a\nExtraprostatic extension (unilateral or bilateral)\n\n\nT3b\nTumor invades seminal vesicle(s)\n\n\nT4\nTumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall"
+  },
+  {
+    "objectID": "posts/Oncology/prostate/staging.html#pathologic-t-staging",
+    "href": "posts/Oncology/prostate/staging.html#pathologic-t-staging",
+    "title": "Staging",
+    "section": "Pathologic T Staging",
+    "text": "Pathologic T Staging\n\n\n\n\nTable 2: Definition of pathologic T stages\n\n\n\n\n\n\n\n\n\npT\nDescription\n\n\n\n\nT2\nOrgan confined\n\n\nT3\nExtraprostatic extension\n\n\nT3a\nExtraprostatic extension (unilateral or bilateral) or microscopic invasion of bladder neck\n\n\nT3b\nTumor invades seminal vesicle(s)\n\n\nT4\nTumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall\n\n\n\n\n\n\n\nNote: There is no pathological T1\nNote: Positive surgical margin should be indicated by an R1 descriptor, indicating residual microscopic disease."
+  },
+  {
+    "objectID": "posts/Oncology/Prostate_Cancer/staging.html",
+    "href": "posts/Oncology/Prostate_Cancer/staging.html",
+    "title": "Staging",
+    "section": "",
+    "text": "Table 1: Definition of clinical stages\n\n\n\n\n\n\n\n\n\ncT\nDescription\n\n\n\n\nTX\nPrimary tumor cannot be assessed\n\n\nT0\nNo evidence of primary tumor\n\n\nT1\nClinically inapparent tumor that is not palpable\n\n\nT1a\nTumor incidental histologic finding in 5% or less of tissue resected\n\n\nT1b\nTumor incidental histologic finding in more than 5% of tissue resected\n\n\nT1c\nTumor identified by needle biopsy found in one or both sides, but not palpable\n\n\nT2\nTumor is palpable and confined within prostate\n\n\nT2a\nTumor involves one-half of one side or less\n\n\nT2b\nTumor involves more than one-half of one side but not both sides\n\n\nT2c\nTumor involves both sides\n\n\nT3\nExtraprostatic tumor that is not fixed or does not invade adjacent structures\n\n\nT3a\nExtraprostatic extension (unilateral or bilateral)\n\n\nT3b\nTumor invades seminal vesicle(s)\n\n\nT4\nTumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall",
     "crumbs": [
-      "규제개선 제안사항",
-      "보고",
-      "보고중복"
+      "Oncology",
+      "Prostate Cancer",
+      "Staging"
     ]
   },
   {
-    "objectID": "posts/petct/analcarcinoma/staging.html",
-    "href": "posts/petct/analcarcinoma/staging.html",
-    "title": "Anal Carcinoma Staging",
+    "objectID": "posts/Oncology/Prostate_Cancer/staging.html#clinical-t-staging",
+    "href": "posts/Oncology/Prostate_Cancer/staging.html#clinical-t-staging",
+    "title": "Staging",
     "section": "",
-    "text": "T Stage\nAJCC 8th Edition\nAJCC 9th Edition\n\n\n\n\nT1\nTumor ≤2 cm in greatest dimension\nTumor ≤2 cm in greatest dimension\n\n\nT2\nTumor &gt;2 cm but ≤5 cm in greatest dimension\nTumor &gt;2 cm but ≤5 cm in greatest dimension\n\n\nT3\nTumor &gt;5 cm in greatest dimension\nTumor &gt;5 cm in greatest dimension\n\n\nT4\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\n\n\nT4a\nNot applicable\nTumor involving the skin of the perianal area\n\n\nT4b\nNot applicable\nTumor invading adjacent structures (vagina, urethra, bladder, etc.)\n\n\n\nNote: The main difference between the AJCC 8th and 9th Editions is the subdivision of T4 into T4a and T4b in the 9th Edition, which provides a more detailed categorization for advanced local disease.",
+    "text": "Table 1: Definition of clinical stages\n\n\n\n\n\n\n\n\n\ncT\nDescription\n\n\n\n\nTX\nPrimary tumor cannot be assessed\n\n\nT0\nNo evidence of primary tumor\n\n\nT1\nClinically inapparent tumor that is not palpable\n\n\nT1a\nTumor incidental histologic finding in 5% or less of tissue resected\n\n\nT1b\nTumor incidental histologic finding in more than 5% of tissue resected\n\n\nT1c\nTumor identified by needle biopsy found in one or both sides, but not palpable\n\n\nT2\nTumor is palpable and confined within prostate\n\n\nT2a\nTumor involves one-half of one side or less\n\n\nT2b\nTumor involves more than one-half of one side but not both sides\n\n\nT2c\nTumor involves both sides\n\n\nT3\nExtraprostatic tumor that is not fixed or does not invade adjacent structures\n\n\nT3a\nExtraprostatic extension (unilateral or bilateral)\n\n\nT3b\nTumor invades seminal vesicle(s)\n\n\nT4\nTumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall",
     "crumbs": [
-      "PETCT Interpretation",
-      "Anal Carcinoma",
-      "Anal Carcinoma Staging"
+      "Oncology",
+      "Prostate Cancer",
+      "Staging"
     ]
   },
   {
-    "objectID": "posts/petct/analcarcinoma/staging.html#t-stage",
-    "href": "posts/petct/analcarcinoma/staging.html#t-stage",
-    "title": "Anal Carcinoma Staging",
-    "section": "",
-    "text": "T Stage\nAJCC 8th Edition\nAJCC 9th Edition\n\n\n\n\nT1\nTumor ≤2 cm in greatest dimension\nTumor ≤2 cm in greatest dimension\n\n\nT2\nTumor &gt;2 cm but ≤5 cm in greatest dimension\nTumor &gt;2 cm but ≤5 cm in greatest dimension\n\n\nT3\nTumor &gt;5 cm in greatest dimension\nTumor &gt;5 cm in greatest dimension\n\n\nT4\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\n\n\nT4a\nNot applicable\nTumor involving the skin of the perianal area\n\n\nT4b\nNot applicable\nTumor invading adjacent structures (vagina, urethra, bladder, etc.)\n\n\n\nNote: The main difference between the AJCC 8th and 9th Editions is the subdivision of T4 into T4a and T4b in the 9th Edition, which provides a more detailed categorization for advanced local disease.",
+    "objectID": "posts/Oncology/Prostate_Cancer/staging.html#pathologic-t-staging",
+    "href": "posts/Oncology/Prostate_Cancer/staging.html#pathologic-t-staging",
+    "title": "Staging",
+    "section": "Pathologic T Staging",
+    "text": "Pathologic T Staging\n\n\n\n\nTable 2: Definition of pathologic T stages\n\n\n\n\n\n\n\n\n\npT\nDescription\n\n\n\n\nT2\nOrgan confined\n\n\nT3\nExtraprostatic extension\n\n\nT3a\nExtraprostatic extension (unilateral or bilateral) or microscopic invasion of bladder neck\n\n\nT3b\nTumor invades seminal vesicle(s)\n\n\nT4\nTumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall\n\n\n\n\n\n\n\nNote: There is no pathological T1\nNote: Positive surgical margin should be indicated by an R1 descriptor, indicating residual microscopic disease.",
     "crumbs": [
-      "PETCT Interpretation",
-      "Anal Carcinoma",
-      "Anal Carcinoma Staging"
+      "Oncology",
+      "Prostate Cancer",
+      "Staging"
     ]
-  },
-  {
-    "objectID": "posts/petct/analcarcinoma/staging.html#n-stage",
-    "href": "posts/petct/analcarcinoma/staging.html#n-stage",
-    "title": "Anal Carcinoma Staging",
-    "section": "N stage",
-    "text": "N stage\n\n\n\n\n\n\n\n\nN Stage\n8th Edition\n9th Edition\n\n\n\n\nN0\nNo regional lymph node metastasis\nNo regional lymph node metastasis\n\n\nN1a\nMetastasis in inguinal, mesorectal, or internal iliac lymph nodes\nMetastasisTumor involvement of inguinal, mesorectal, superior rectal, internal iliac, or obturator lymph node(s)\n\n\nN1b\nMetastasis in external iliac lymph nodes (rare, but included when associated with inguinal or internal iliac)\nMetastasis in external iliac lymph nodes (same as 8th edition)\n\n\nN1c\nMetastasis in multiple regional lymph nodes (combination of N1a and N1b sites)\nMetastasis in multiple regional lymph nodes (combination of N1a and N1b sites)\n\n\nChanges\n-\nClarification in definitions, improved staging accuracy",
-    "crumbs": [
-      "PETCT Interpretation",
-      "Anal Carcinoma",
-      "Anal Carcinoma Staging"
-    ]
-  },
-  {
-    "objectID": "posts/petct/analcarcinoma/staging.html#m-stage",
-    "href": "posts/petct/analcarcinoma/staging.html#m-stage",
-    "title": "Anal Carcinoma Staging",
-    "section": "M stage",
-    "text": "M stage",
-    "crumbs": [
-      "PETCT Interpretation",
-      "Anal Carcinoma",
-      "Anal Carcinoma Staging"
-    ]
-  },
-  {
-    "objectID": "posts/station/pelvis/pe;vis.html",
-    "href": "posts/station/pelvis/pe;vis.html",
-    "title": "Anal Carcinoma Staging",
-    "section": "",
-    "text": "T Stage\nAJCC 8th Edition\nAJCC 9th Edition\n\n\n\n\nT1\nTumor ≤2 cm in greatest dimension\nTumor ≤2 cm in greatest dimension\n\n\nT2\nTumor &gt;2 cm but ≤5 cm in greatest dimension\nTumor &gt;2 cm but ≤5 cm in greatest dimension\n\n\nT3\nTumor &gt;5 cm in greatest dimension\nTumor &gt;5 cm in greatest dimension\n\n\nT4\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\n\n\nT4a\nNot applicable\nTumor involving the skin of the perianal area\n\n\nT4b\nNot applicable\nTumor invading adjacent structures (vagina, urethra, bladder, etc.)\n\n\n\nNote: The main difference between the AJCC 8th and 9th Editions is the subdivision of T4 into T4a and T4b in the 9th Edition, which provides a more detailed categorization for advanced local disease."
-  },
-  {
-    "objectID": "posts/station/pelvis/pe;vis.html#t-stage",
-    "href": "posts/station/pelvis/pe;vis.html#t-stage",
-    "title": "Anal Carcinoma Staging",
-    "section": "",
-    "text": "T Stage\nAJCC 8th Edition\nAJCC 9th Edition\n\n\n\n\nT1\nTumor ≤2 cm in greatest dimension\nTumor ≤2 cm in greatest dimension\n\n\nT2\nTumor &gt;2 cm but ≤5 cm in greatest dimension\nTumor &gt;2 cm but ≤5 cm in greatest dimension\n\n\nT3\nTumor &gt;5 cm in greatest dimension\nTumor &gt;5 cm in greatest dimension\n\n\nT4\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\nTumor of any size invading adjacent organ(s) (e.g., vagina, urethra, bladder)\n\n\nT4a\nNot applicable\nTumor involving the skin of the perianal area\n\n\nT4b\nNot applicable\nTumor invading adjacent structures (vagina, urethra, bladder, etc.)\n\n\n\nNote: The main difference between the AJCC 8th and 9th Editions is the subdivision of T4 into T4a and T4b in the 9th Edition, which provides a more detailed categorization for advanced local disease."
-  },
-  {
-    "objectID": "posts/station/pelvis/pe;vis.html#n-stage",
-    "href": "posts/station/pelvis/pe;vis.html#n-stage",
-    "title": "Anal Carcinoma Staging",
-    "section": "N stage",
-    "text": "N stage\n\n\n\n\n\n\n\n\nN Stage\n8th Edition\n9th Edition\n\n\n\n\nN0\nNo regional lymph node metastasis\nNo regional lymph node metastasis\n\n\nN1a\nMetastasis in inguinal, mesorectal, or internal iliac lymph nodes\nMetastasis in inguinal, mesorectal, or internal iliac lymph nodes\n\n\nN1b\nMetastasis in external iliac lymph nodes (rare, but included when associated with inguinal or internal iliac)\nMetastasis in external iliac lymph nodes (same as 8th edition)\n\n\nN1c\nMetastasis in multiple regional lymph nodes (combination of N1a and N1b sites)\nMetastasis in multiple regional lymph nodes (combination of N1a and N1b sites)\n\n\nChanges\n-\nClarification in definitions, improved staging accuracy"
-  },
-  {
-    "objectID": "posts/station/pelvis/pe;vis.html#m-stage",
-    "href": "posts/station/pelvis/pe;vis.html#m-stage",
-    "title": "Anal Carcinoma Staging",
-    "section": "M stage",
-    "text": "M stage"
   }
 ]

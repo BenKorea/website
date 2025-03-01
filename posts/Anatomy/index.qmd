@@ -1,0 +1,8 @@
+---
+title: "Anatomy"
+description: "anatomy 공부한 것을 정리"
+author: "BenKorea"
+date: "2024-11-21"
+date-modified: last-modified
+categories: [anatomy]
+---

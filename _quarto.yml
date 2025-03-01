@@ -7,33 +7,58 @@ website:
   
   navbar:
     left:
-      - text: Blog
+      - text: "Blog"
         href: index.qmd
-      - text: "PETCT Interpretation"
-        href: posts/petct/index.qmd
-      - text: "LN station"
-        href: posts/station/index.qmd        
+      - text: "IT"      
+        href: posts/IT/introduction.qmd
+      - text: "Oncology"
+        href: posts/Oncology/index.qmd
+      - text: "Anatomy"
+        href: posts/Anatomy/index.qmd         
+      - text: "About"      
+        href: posts/about.qmd     
+    
     right:
       - about.qmd
       - icon: github
         href: https://github.com/
     search: true
-    
+  
   sidebar:
-    - title: "PETCT Interpretation"
-      collapse-level: 1
+    - title: "IT"
+      collapse-level: 2    
       contents:
-        - posts/petct/index.qmd
+        - posts/IT/introduction.qmd
+        - section: "Rasberry Pi"
+          contents:
+            - posts/IT/Rasberry_Pi/setup.qmd
+        - section: "무소음 PC"
+          contents:
+            - posts/IT/silent_pc/silent_pc.qmd            
+
+    - title: "Oncology"
+      collapse-level: 2
+      contents:
+        - posts/Oncology/index.qmd
+        - section: "NSCLC"
+          contents:
+          - posts/Oncology/NSCLC/staging.qmd
+        - section: "SCLC"
+          contents:
+          - posts/Oncology/SCLC/staging.qmd     
+        - section: "Prostate Cancer"
+          contents:
+          - posts/Oncology/Prostate_Cancer/staging.qmd               
         - section: "Anal Carcinoma"
           contents:
-          - posts/petct/analcarcinoma/staging.qmd
-    - title: "LN station"
-      collapse-level: 1
+          - posts/Oncology/Anal_Carcinoma/staging.qmd          
+    - title: "Anatomy"
+      collapse-level: 2
       contents:
-        - posts/station/index.qmd
+        - posts/Anatomy/index.qmd
         - section: "Pelvis"
           contents:
-          - posts/station/pelvis/pelvis.qmd          
+          - posts/Anatomy/pelvis/pelvis.qmd          
         
         
         

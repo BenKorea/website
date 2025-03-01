@@ -1,0 +1,10 @@
+---
+title: "Pelvis"
+description: "pelic LN stataion definition에 대해 정리할 예정"
+author: "BenKorea"
+date: "2024-11-21"
+date-modified: last-modified
+categories: [pelvis, lympn node, station]
+---
+
+

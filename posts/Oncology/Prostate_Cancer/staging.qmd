@@ -1,0 +1,54 @@
+---
+title: "Staging"
+description: "Prostate cancer AJCC 8th editiopn (2017)"
+author: "BenKorea"
+date: "2024-10-14"
+date-modified: last-modified
+categories: [Prostate cancer, staging, AJCC 8th]
+tbl-colwidths: [10,90]
+---
+
+## Clinical T Staging
+
+<div>
+
+| **cT** | **Description** |
+|:------------------------|:----------------------------------------------|
+| **TX** | Primary tumor cannot be assessed |
+| **T0** | No evidence of primary tumor |
+| **T1** | Clinically inapparent tumor that is not palpable |
+| **T1a** | Tumor incidental histologic finding in 5% or less of tissue resected |
+| **T1b** | Tumor incidental histologic finding in more than 5% of tissue resected |
+| **T1c** | Tumor identified by needle biopsy found in one or both sides, but not palpable |
+| **T2** | Tumor is palpable and confined within prostate |
+| **T2a** | Tumor involves one-half of one side or less |
+| **T2b** | Tumor involves more than one-half of one side but not both sides |
+| **T2c** | Tumor involves both sides |
+| **T3** | Extraprostatic tumor that is not fixed or does not invade adjacent structures |
+| **T3a** | Extraprostatic extension (unilateral or bilateral) |
+| **T3b** | Tumor invades seminal vesicle(s) |
+| **T4** | Tumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall |
+
+: Definition of clinical stages {#tbl-ClinicalStages}
+
+</div>
+
+## Pathologic T Staging
+
+<div>
+
+| **pT** | **Description** |
+|:------------------------|:----------------------------------------------|
+| **T2** | Organ confined |
+| **T3** | Extraprostatic extension |
+| **T3a** | Extraprostatic extension (unilateral or bilateral) or microscopic invasion of bladder neck |
+| **T3b** | Tumor invades seminal vesicle(s) |
+| **T4** | Tumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall |
+
+: Definition of pathologic T stages {#tbl-PathologicStages}
+
+</div>
+
+Note: There is no pathological T1
+
+Note: Positive surgical margin should be indicated by an R1 descriptor, indicating residual microscopic disease.
