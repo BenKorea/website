@@ -10,7 +10,7 @@ categories: [Anal Carcinoma, staging, AJCC 8th, AJCC 9th]
 ## T stage
 
 | **T Stage** | **AJCC 8th Edition** | **AJCC 9th Edition** |
-|-----------------|----------------------------|----------------------------|
+|----|----|----|
 | **T1** | Tumor ≤2 cm in greatest dimension | Tumor ≤2 cm in greatest dimension |
 | **T2** | Tumor \>2 cm but ≤5 cm in greatest dimension | Tumor \>2 cm but ≤5 cm in greatest dimension |
 | **T3** | Tumor \>5 cm in greatest dimension | Tumor \>5 cm in greatest dimension |
@@ -23,7 +23,7 @@ categories: [Anal Carcinoma, staging, AJCC 8th, AJCC 9th]
 ## N stage
 
 | N Stage | **8th Edition** | **9th Edition** |
-|-----------------|----------------------------|----------------------------|
+|----|----|----|
 | **N0** | No regional lymph node metastasis | No regional lymph node metastasis |
 | **N1a** | Metastasis in inguinal, mesorectal, or internal iliac lymph nodes | MetastasisTumor involvement of inguinal, mesorectal, superior rectal, internal iliac, or obturator lymph node(s) |
 | **N1b** | Metastasis in external iliac lymph nodes (rare, but included when associated with inguinal or internal iliac) | Metastasis in external iliac lymph nodes (same as 8th edition) |
@@ -35,7 +35,7 @@ categories: [Anal Carcinoma, staging, AJCC 8th, AJCC 9th]
 # Anal Cancer M Stage Comparison: AJCC 8th vs. 9th Edition
 
 | **M Stage** | **AJCC 8th Edition** | **AJCC 9th Edition** |
-|------------------|---------------------------|---------------------------|
+|----|----|----|
 | **M0** | No distant metastasis | No distant metastasis |
 | **M1** | Distant metastasis present | Distant metastasis present |
 | **M1a** | *Not applicable* | Metastasis to non-regional lymph nodes or organs (e.g., liver, lung) |
