@@ -24,6 +24,27 @@ Class라 부르며 기록을 할 수 있는 속도를 우측이 비어있는 원
 
 ![마이크로 SD 카드](image/microSDCard.jpg){#fig-microSDCard width="200"}
 
+Micro SD Formatting
+
+가장 잘 설명
+https://bugwhale.tistory.com/entry/raspberry-raspbian-install-01
+https://kocoafab.cc/tutorial/view/299
+내컴퓨터에서 직접 포맷 하는 방법
+SD Formatter 4.0
+https://prasowa.tistory.com/9
+SD card formatter
+SD Card Formatter를 인스톨 후 실행했을 때 sd카드가 연결되어 있다면 자동으로 인식되어 나타난다.
+여기서 빠른 포맷과 일반 포맷이 있는데 별다른 문제가 없다면 빠른 포맷으로 진행한다. (처음에는 빠른포맷으로 포맷을 하고 라즈비안을 설치하려 했었으나 이미지 파일을 읽는 도중 an error occurred when attempting to write data to handle 에러가 나오면서 멈춰버리는 현상이 발생해 일반 포맷으로 포맷하여 실행하니 문제없이 설치할 수 있었다.)
+달소씨의 하루 https://blog.dalso.org/raspberry-pi/raspberry-pi-4/7335
+NOOBS 설명
+Brunch https://brunch.co.kr/@topasvga/701
+재 포맷
+32GB는 FAT32로 포맷
+저용량 sd카드는 FAT32로 포맷을 하고, 고용량인 sd카드는 exFAT으로 포맷을 합니다.
+(아래에서 설명할 imager로 64GB 마이크로 sd카드에 라즈베리파이 OS 구워본 결과, 마이크로 SD카드의 모든 용량이 OS 설치와 동시에 마운트되어 사용가능한 용량으로 잡혔습니다.)
+출처: https://reddb.tistory.com/8 [전산직의 삶]
+
+
 ## Raspberry Pi setup
 
 ### 설치파일 다운로드

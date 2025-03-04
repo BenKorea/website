@@ -1,0 +1,101 @@
+---
+title: "NAS"
+description: "라즈베리파이를 이용한 NAS 구축"
+author: "BenKorea"
+date: "2024-11-16"
+date-modified: last-modified
+categories: [Rasberry pi, NAS]
+---
+
+목표
+스마트폰의 사진 자동백업과 Viewer
+궁극적으로 Synology Photos 사용
+현단계에는 PhotoSync through OMV
+Plex
+NextCloud
+Home bridge
+Home assistant
+
+
+
+
+microSD card format
+microSD card회사 홈페이지에서 다운로드 https://www.sdcard.org/downloads/formatter/index.html
+
+Raspbian install
+Raspbian install image 파일 download
+https://www.raspberrypi.org/downloads/raspberry-pi-os/ 
+용량이 커서 집에서 다운로드
+Win32DiskImager로 SD에 image 파일 writing
+ssh
+raspberry pi ip 
+
+omv install
+https://blog.jeuke.com/68
+https://www.codesarang.com/17
+ssh pi user 등록
+
+
+2020.09.20
+우리부부는 아이폰을 사용해오고 있으며 “iCloud 저장공간이 가득 참” 메세지에도 불구하고 저장공간을 업그레이드 하지 않고 지내고 있다. 옛날 사진은 1TB 외장하드에 보관하고 있으나 최근에는 아이폰이나 PC에서 옮기지도 않고 있다. 이에 NAS 를 구축하여 스마트폰 사진을 자동으로 백업하는 우리가족 프로젝트를 진행하기로 했다.
+
+2020.09.21. 
+스마트폰 NAS 자동백업 App 및 NAS 선택
+검색 후 2가지 선택 중 고민이 되었다.
+스마트폰 App으로는 SynologyPhoto가 편리하고 우수하다 하고 Synology NAS 구매하면 무료로 사용이 가능하다. 다른 옵션인 PhotoSync는 화질손실없이 자동백업이 될려면 pro version과 premium version 둘다를 구매해야 하므로 지속적인 비용지출이 단점이다.
+자작 NAS로는 라즈베리파이4를 기반으로 가성비 높게 구축이 가능하다. Synology NAS의 경우 DS620Slime을 염두에 두었다. (설치는 거실이 될 예정이고, 개인적으로 소음을 상당히 싫어하기 때문에 SSD 장차과 저소음 40mm fan으로 교체후기가 있는 것을 고려하였다. 또한 더 이상 사용하지 않는 노트북의 SSD 하드 장착이 가능하다는 점도 고려되었다. 현재 사용중인 노트북이 2대가 있으므로 2.5인치 SDD는 추가가 될 것이므로 6 bay가 나쁜 선택은 아닌 것 같다.)
+일단은 라즈베리파이4로 자작을 하고 문제가 발생하면 Synology를 바로 구매하는 전략으로 진행하기로 했다. 라즈베리파이4는 향후 스마트홈 구축 프로젝트 진행 시 자작서버로써로 활용이 가능할 것이라 예상되어 불필요한 지출이라기 보다는 취미생활이 하나 늘어나는 것으로 생각한다.
+
+2020.09.25 
+라즈베리파이4 부속물 선택
+SD는 32GB로 선택했다. 향후 다목적으로 사용하기 위해 다양한 프로그램이 추가 설치될 것을 고려했다.
+전원케이블 국내판매되는 것 중 스위치가 있는 형태가 있었으나 주문 당시에는 몰라서 스위치가 없는 형태를 주문했다. 멀티탭에 스위치가 있는 형태를 사용해서 단점을 극복해야 하겠다.
+일단은 여기까지 구매 했고, 초보자로써 필요한 프로그램 설치에 성공한다는 보장이 없어서 일단 프로그램 설치 및 정상작동이 확인되고 난 뒤 아래의 쿨링과 케이스를 구매할 예정이다.
+라즈베리파이4는 발열이 있어 쿨링이 필요하다. 검색시 Amazone에서 GeeekPi Raspberry Pi 4 Case with ICE Tower Cooler CPU Cooling Fan 이 40mm 팬이므로 Noctua fan으로 교체가능성을 염두로 두고 구매예정이다. 이 제품은 아크릴판 case와 같이 구매가 가능하다.
+
+
+2020.10.06
+중복사진 정리 프로그램
+먼저 옛날 사진/동영상을 외장하드에 보관할 때, 몇번의 노트북을 거치는 과정에서 중복으로 back up 된 문제가 있으므로 이를 해결하기 위해 무료 사진 정리 프로그램을 조사했다. 
+VisiPics
+동영상도 되는지 모르겠다.
+
+2020.10.07
+SD Card Formatter 다운로드
+SD Card Formatter 프로그램을 선택하였는데, 라즈비안을 설치하게 되면 파티션이 2 개로 나뉘는데 각각의 파티션을 포맷 후 병합하는 과정까지 한 번에 해준다라는 검색결과를 참고하였으며, 이 사이트는 설명이 가장 잘 되어 있었다. microSD card회사 홈페이지(https://www.sdcard.org/downloads/formatter/index.html)에서 SD Card Formatter 5.0.1 Setup.exe를 다운로드 받았다.
+
+
+2020.10.07
+라즈비안 OS 다운로드
+
+SD Card Formatter를 인스톨 후 실행했을 때 sd카드가 연결되어 있다면 자동으로 인식되어 나타난다. 저용량 sd카드는 FAT32로 포맷을 하고, 고용량인 sd카드는 exFAT으로 포맷을 하게된다.32GB까지는 FAT32로 포맷하면 된다.
+옵션에서 빠른 포맷이 실패하였다는 후기가 있으나 대부분은 빠른 포맷이 가능하였다라는 후기가 더 많았다.
+
+2020.10.09
+라즈비안 설치
+SD card에 설치 후 window에서 보면 용량이 다르게 보이나 이는 window와 리눅스의 차이
+
+2020-10-19
+OMV5 설치
+wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+
+2020-10-25
+NextCloud 설치
+mariadb에서 db 생성
+
+
+wget
+현재 디렉토리로 다운로드
+| 파이프라인 (앞에 실행한 결과를 뒤에 실행하는 명령어의 입력으로 보내 줌
+
+
+Raspbian directory
+
+라즈비안 다운로드
+
+Docker 설치
+1-1. 동적OMV5에서 docker를 실행하면 는 
+
+
+
+
