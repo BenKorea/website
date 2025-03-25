@@ -8,9 +8,9 @@
 
 <meta name="author" content="BenKorea">
 <meta name="dcterms.date" content="2024-11-16">
-<meta name="description" content="무소음PC의 구성 예시">
+<meta name="description" content="라즈베리파이 설치">
 
-<title>구성 예시 – BenKorea</title>
+<title>setup – BenKorea</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -96,8 +130,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../../posts/IT/introduction.html" aria-current="page"> 
-<span class="menu-text">IT</span></a>
+    <a class="nav-link active" href="../../../posts/development/introduction.html" aria-current="page"> 
+<span class="menu-text">Development</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../posts/Oncology/index.html"> 
@@ -134,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/IT/silent_pc/silent_pc.html">무소음 PC</a></li><li class="breadcrumb-item"><a href="../../../posts/IT/silent_pc/silent_pc.html">구성 예시</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/development/Rasberry_Pi/setup.html">Rasberry Pi</a></li><li class="breadcrumb-item"><a href="../../../posts/development/Rasberry_Pi/setup.html">setup</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -143,15 +177,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/IT/silent_pc/silent_pc.html">무소음 PC</a></li><li class="breadcrumb-item"><a href="../../../posts/IT/silent_pc/silent_pc.html">구성 예시</a></li></ol></nav>
-      <h1 class="title">구성 예시</h1>
+    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/development/Rasberry_Pi/setup.html">Rasberry Pi</a></li><li class="breadcrumb-item"><a href="../../../posts/development/Rasberry_Pi/setup.html">setup</a></li></ol></nav>
+      <h1 class="title">setup</h1>
                   <div>
         <div class="description">
-          무소음PC의 구성 예시
+          라즈베리파이 설치
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">silent PC</div>
+                <div class="quarto-category">Rasberry pi</div>
                 <div class="quarto-category">setup</div>
               </div>
                   </div>
@@ -177,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">March 1, 2025</p>
+        <p class="date-modified">March 4, 2025</p>
       </div>
     </div>
       
@@ -191,14 +225,14 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../posts/IT/introduction.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../posts/development/introduction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">IT</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Rasberry Pi</span></a>
+ <span class="menu-text">WSL2</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -206,8 +240,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../posts/IT/Rasberry_Pi/setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">setup</span></a>
+  <a href="../../../posts/development/wsl2/setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ubuntu on WSL2</span></a>
   </div>
 </li>
       </ul>
@@ -215,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">무소음 PC</span></a>
+ <span class="menu-text">Rasberry Pi</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -223,7 +257,24 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../posts/IT/silent_pc/silent_pc.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../posts/development/Rasberry_Pi/setup.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">setup</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">무소음 PC</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/development/silent_pc/silent_pc.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">구성 예시</span></a>
   </div>
 </li>
@@ -242,180 +293,78 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="프로젝트-개요" class="level1">
-<h1><strong>1. 프로젝트 개요</strong></h1>
+<section id="마이크로-sd-카드" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="마이크로-sd-카드"><span class="header-section-number">1</span> 마이크로 SD 카드</h2>
+<p><a href="#fig-microSDCard" class="quarto-xref">Figure&nbsp;1</a> 는 2024년 11월 16일 현재 우리집 Rassberry Pi에 사용중인 마이크로 SD (Secure Digital) 카드이다. 초기의 FAT16파일시스템을 사용하여 용량이 2 GB로 제한되었으나 이 제품은 FAT32파일시스템을 사용한 SDHC (Secure Digial High Capacity) 제품이다. Class라 부르며 기록을 할 수 있는 속도를 우측이 비어있는 원안에 표시를 한다. 우리집 것은 10이 있으며 이는 기록속도가 초당 10 MB라는 의미이다.</p>
+<p>요약하자면</p>
 <ul>
-<li><strong>목표:</strong> 팬리스(Fanless) 시스템 구축</li>
-<li><strong>중점 요소:</strong>
-<ul>
-<li>CPU, PSU, 저장 장치에서 소음 발생 최소화</li>
-<li>공기 흐름이 원활한 <strong>매쉬형 케이스</strong> 선택</li>
-<li><strong>140mm 팬</strong>을 저RPM으로 설정하여 발열 문제 해결</li>
-</ul></li>
+<li><p>FAT32 파일시스템</p></li>
+<li><p>32 GB 저장용량</p></li>
+<li><p>Class 10 (= 초당 10 MB) 기록속도</p></li>
 </ul>
-<hr>
+<div id="fig-microSDCard" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-microSDCard-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="image/microSDCard.jpg" class="img-fluid figure-img" width="200">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-microSDCard-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: 마이크로 SD 카드
+</figcaption>
+</figure>
+</div>
+<p>Micro SD Formatting</p>
+<p>가장 잘 설명 https://bugwhale.tistory.com/entry/raspberry-raspbian-install-01 https://kocoafab.cc/tutorial/view/299 내컴퓨터에서 직접 포맷 하는 방법 SD Formatter 4.0 https://prasowa.tistory.com/9 SD card formatter SD Card Formatter를 인스톨 후 실행했을 때 sd카드가 연결되어 있다면 자동으로 인식되어 나타난다. 여기서 빠른 포맷과 일반 포맷이 있는데 별다른 문제가 없다면 빠른 포맷으로 진행한다. (처음에는 빠른포맷으로 포맷을 하고 라즈비안을 설치하려 했었으나 이미지 파일을 읽는 도중 an error occurred when attempting to write data to handle 에러가 나오면서 멈춰버리는 현상이 발생해 일반 포맷으로 포맷하여 실행하니 문제없이 설치할 수 있었다.) 달소씨의 하루 https://blog.dalso.org/raspberry-pi/raspberry-pi-4/7335 NOOBS 설명 Brunch https://brunch.co.kr/<span class="citation" data-cites="topasvga/701">@topasvga/701</span> 재 포맷 32GB는 FAT32로 포맷 저용량 sd카드는 FAT32로 포맷을 하고, 고용량인 sd카드는 exFAT으로 포맷을 합니다. (아래에서 설명할 imager로 64GB 마이크로 sd카드에 라즈베리파이 OS 구워본 결과, 마이크로 SD카드의 모든 용량이 OS 설치와 동시에 마운트되어 사용가능한 용량으로 잡혔습니다.) 출처: https://reddb.tistory.com/8 [전산직의 삶]</p>
 </section>
-<section id="개별-부품-비교-및-선택-이유" class="level1">
-<h1><strong>2. 개별 부품 비교 및 선택 이유</strong></h1>
-<section id="cpu-선택" class="level2">
-<h2 class="anchored" data-anchor-id="cpu-선택"><strong>2.1 CPU 선택</strong></h2>
+<section id="raspberry-pi-setup" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="raspberry-pi-setup"><span class="header-section-number">2</span> Raspberry Pi setup</h2>
+<section id="설치파일-다운로드" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="설치파일-다운로드"><span class="header-section-number">2.1</span> 설치파일 다운로드</h3>
+<p>공식사이트에서 라즈베리파이 설치 이미지파일을 다운로드 받는다 (<a href="https://www.raspberrypi.com/software/" class="uri">https://www.raspberrypi.com/software/</a><a>). 2024년 11월 16일 현재 원도우용 최신 설치이미지파일은 <code>imager_1.8.5.exe</code>이다.</a></p><a>
+</a></section><a>
+<section id="sd카드에-os설치" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="sd카드에-os설치"><span class="header-section-number">2.2</span> SD카드에 OS설치</h3>
+<p>이미지설치파일을 실행하여</p>
 <ul>
-<li><strong>비교 모델:</strong> Intel Core i3-13100T vs Intel Core i5-9500</li>
-<li><strong>최종 선택:</strong> <strong>Intel Core i3-13100T (35W 저전력)</strong></li>
-<li><strong>이유:</strong>
+<li><p>운영체제를 선택하고…</p></li>
+<li><p>Customizing OS에서 아래의 사항들을 선택하고 진행한다.</p>
+<ul class="task-list">
+<li><p><label><input type="checkbox" checked="">Enable SSH checkbox 선택하여 진행하면</label></p>
 <ul>
-<li>저전력(35W)으로 발열이 적음</li>
-<li>4코어 8스레드로 팬리스 환경에서도 성능 유지 가능</li>
-<li>최신 DDR5 및 PCIe 5.0 지원 → 확장성 높음</li>
-</ul></li>
+<li>pi user에 대한 password 설정해야 하고</li>
 </ul>
-</section>
-<section id="cpu-쿨러-선택" class="level2">
-<h2 class="anchored" data-anchor-id="cpu-쿨러-선택"><strong>2.2 CPU 쿨러 선택</strong></h2>
+<pre><code>-   password를 default `raspberry`로 진행한다면 이후 변경해야 함</code></pre></li>
+<li><p><label><input type="checkbox" checked="">Configure Wifi 선택하여 진행하면</label></p>
 <ul>
-<li><strong>비교 모델:</strong> NOFAN 아이스파이프 vs Noctua NH-P1</li>
-<li><strong>최종 선택:</strong> <strong>NOFAN 아이스파이프</strong></li>
-<li><strong>이유:</strong>
-<ul>
-<li>팬 없이도 80W 이하 CPU 냉각 가능</li>
-<li>크기가 작아 케이스 내부 공간 활용성이 높음</li>
-<li>저소음 시스템에 최적</li>
+<li><p>SSID: ??_ ????????????</p></li>
+<li><p>Password: ??????????</p></li>
 </ul></li>
-</ul>
-</section>
-<section id="마더보드-선택" class="level2">
-<h2 class="anchored" data-anchor-id="마더보드-선택"><strong>2.3 마더보드 선택</strong></h2>
-<ul>
-<li><strong>비교 모델:</strong> ASRock B760M-HDV/M.2 (M-ATX) vs ATX 보드</li>
-<li><strong>최종 선택:</strong> <strong>ASRock B760M-HDV/M.2 (M-ATX)</strong></li>
-<li><strong>이유:</strong>
-<ul>
-<li>PCIe 5.0 및 최신 DDR5 지원</li>
-<li>M-ATX 폼팩터로 공간 절약 가능</li>
-<li>팬리스 시스템에서 추가 확장이 필요하지 않음</li>
 </ul></li>
+<li><p>설치가 완료가 완료되면 사용 가능한 상태가 된다.</p></li>
 </ul>
 </section>
-<section id="스토리지-선택" class="level2">
-<h2 class="anchored" data-anchor-id="스토리지-선택"><strong>2.4 스토리지 선택</strong></h2>
+<section id="ssh-접속" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="ssh-접속"><span class="header-section-number">2.3</span> SSH 접속</h3>
 <ul>
-<li><strong>비교 모델:</strong> PCIe 3.0 vs PCIe 4.0 NVMe SSD</li>
-<li><strong>최종 선택:</strong> <strong>Crucial P3 1TB PCIe 3.0 NVMe SSD</strong></li>
-<li><strong>이유:</strong>
+<li>Android에서는 SSH 클라이언트를 설치하여 접속한다. 대표적인 SSH 클라이언트는 다음과 같다.
 <ul>
-<li>PCIe 4.0 대비 발열이 적음</li>
-<li>무소음 유지 가능 (HDD 사용 X)</li>
-<li>충분한 속도 제공 (3500MB/s)</li>
+<li>Termius: Android에서도 사용 가능하며 플랫폼 간 동기화 지원.</li>
+<li>JuiceSSH: 인기 있는 Android SSH 클라이언트, 무료 및 유료 플랜 제공.</li>
+<li>ConnectBot: 오픈소스이며 가벼운 SSH 클라이언트.</li>
 </ul></li>
+<li>Raspberry Pi의 IP를 알기위해 Android 용 Network Discovery가 추천된다.</li>
+<li>Windows에서는 PuTTY를 사용한다.</li>
 </ul>
 </section>
-<section id="케이스-선택" class="level2">
-<h2 class="anchored" data-anchor-id="케이스-선택"><strong>2.5 케이스 선택</strong></h2>
-<ul>
-<li><strong>비교 모델:</strong> JONSBO UMX3 vs Fractal Meshify 2 XL vs 3RSYS L600 Quiet</li>
-<li><strong>최종 선택:</strong> <strong>3RSYS L600 Quiet (미들타워, 140mm 팬 4개 포함)</strong></li>
-<li><strong>이유:</strong>
-<ul>
-<li>기본적으로 저소음 팬 제공</li>
-<li>메쉬형 설계로 공기 흐름 극대화</li>
-<li>강화유리 패널로 디자인 유지 가능</li>
-</ul></li>
-</ul>
-</section>
-<section id="파워-서플라이psu-선택" class="level2">
-<h2 class="anchored" data-anchor-id="파워-서플라이psu-선택"><strong>2.6 파워 서플라이(PSU) 선택</strong></h2>
-<ul>
-<li><strong>비교 모델:</strong> Seasonic Prime Fanless 500W vs 일반 PSU</li>
-<li><strong>최종 선택:</strong> <strong>Seasonic Prime Fanless 500W (Platinum 인증)</strong></li>
-<li><strong>이유:</strong>
-<ul>
-<li>완전 팬리스 설계로 무소음 유지</li>
-<li>고효율 (80+ Platinum)로 발열 최소화</li>
-<li>장기간 안정적인 전력 공급 가능</li>
-</ul></li>
-</ul>
-</section>
-<section id="냉각-솔루션-최적화-팬-설정" class="level2">
-<h2 class="anchored" data-anchor-id="냉각-솔루션-최적화-팬-설정"><strong>2.7 냉각 솔루션 최적화 (팬 설정)</strong></h2>
-<ul>
-<li><strong>비교:</strong> 120mm 팬 vs 140mm 팬</li>
-<li><strong>최종 선택:</strong> <strong>140mm 팬 사용 (기본 장착, 저RPM 설정)</strong></li>
-<li><strong>이유:</strong>
-<ul>
-<li><strong>600~800RPM 저속 설정</strong>으로 무소음 유지 가능</li>
-<li><strong>120mm 팬 대비 저RPM에서도 동일한 풍량 제공</strong></li>
-<li>BIOS에서 PWM 모드 설정하여 자동 속도 조절 가능</li>
-</ul></li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="최종-조합-완전-무소음-pc-빌드" class="level1">
-<h1><strong>3. 최종 조합 (완전 무소음 PC 빌드)</strong></h1>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>부품 종류</th>
-<th>모델명</th>
-<th>특징</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>CPU</strong></td>
-<td>Intel Core i3-13100T</td>
-<td>35W 저전력, 팬리스 가능</td>
-</tr>
-<tr class="even">
-<td><strong>쿨러</strong></td>
-<td>NOFAN 아이스파이프</td>
-<td>무소음 냉각, 자연 대류 방식</td>
-</tr>
-<tr class="odd">
-<td><strong>마더보드</strong></td>
-<td>ASRock B760M-HDV/M.2</td>
-<td>M-ATX, DDR5 및 PCIe 5.0 지원</td>
-</tr>
-<tr class="even">
-<td><strong>메모리</strong></td>
-<td>삼성 DDR5 16GB x2 (32GB)</td>
-<td>듀얼 채널 구성</td>
-</tr>
-<tr class="odd">
-<td><strong>스토리지</strong></td>
-<td>Crucial P3 1TB PCIe 3.0 NVMe</td>
-<td>발열 적고 빠른 속도</td>
-</tr>
-<tr class="even">
-<td><strong>케이스</strong></td>
-<td>3RSYS L600 Quiet</td>
-<td>140mm 팬 4개 포함, 저소음 설계</td>
-</tr>
-<tr class="odd">
-<td><strong>파워 서플라이</strong></td>
-<td>Seasonic Prime Fanless 500W</td>
-<td>팬리스 PSU, 완전 무소음</td>
-</tr>
-<tr class="even">
-<td><strong>팬 설정</strong></td>
-<td>140mm 팬 4개</td>
-<td>600~800RPM 제한, BIOS에서 속도 조절</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="최종-결론" class="level1">
-<h1><strong>4. 최종 결론</strong></h1>
-<p>✅ <strong>완전 무소음 PC 구축 성공</strong> 🎯 - <strong>CPU, PSU, 스토리지에서 소음 0dB 달성</strong> - <strong>팬리스 냉각 + 140mm 저소음 팬 최적 조합</strong> - <strong>BIOS에서 팬 속도 조절하여 필요할 때만 작동</strong> - <strong>매쉬형 케이스로 자연 공기 흐름 확보</strong></p>
-<p>🚀 <strong>결론:</strong> <strong>완전 무소음 + 안정적인 냉각이 가능한 최적의 시스템 구성!</strong> 😊✅</p>
+</a><section id="vnc-접속" class="level3" data-number="2.4"><a>
+<h3 data-number="2.4" class="anchored" data-anchor-id="vnc-접속"><span class="header-section-number">2.4</span> VNC 접속</h3>
+</a><div class="cell" data-file_name="vnc.sh"><a>
+</a><div class="sourceCode cell-code" id="cb2"><a></a><pre class="sourceCode r code-with-copy"><a><code class="sourceCode r"><span id="cb2-1"></span></code></a><code class="sourceCode r"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sudo raspi<span class="sc">-</span>config</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>VNC enable을 선택하여 활성화한다. 해상도 설정</p>
+<p>안드로이드용 AVNC를 설치하여 접속</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

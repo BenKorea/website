@@ -12,7 +12,7 @@ The definitions of T, N, and M staging in non-small cell lung cancer are shown i
 <div>
 
 | **Stage** | **Description** |
-|:-----------|:-----------------------------------------------------------|
+|:------|:-------------------------------------------------------|
 | **TX** | Primary tumor cannot be assessed, or tumor proven by the presence of malignant cells in sputum or bronchial washings but not visualized by imaging or bronchoscopy |
 | **T0** | No evidence of primary tumor |
 | **Tis** | Carcinoma in situ: <br> - Squamous cell carcinoma in situ (SCIS) <br> - Adenocarcinoma in situ (AIS): adenocarcinoma with pure lepidic pattern, ≤3 cm in greatest dimension |
@@ -74,7 +74,7 @@ The TNM stage grouping according to the proposed 9th edition of the TNM classifi
 <div>
 
 | **T/M** | **Label** | **N0** | **N1** | **N2a** | **N2b** | **N3** |
-|:----------|:-------------|:---------|:---------|:---------|:---------|:---------|
+|:----------|:----------|:----------|:----------|:----------|:----------|:----------|
 | **T1** | T1a ≤ 1 cm | IA1 | IIB | IIIA | IIIA | IIIB |
 | **T1b** | \> 1 to ≤ 2 cm | IA2 | IIB | IIIA | IIIA | IIIB |
 | **T1c** | \> 2 to ≤ 3 cm | IA3 | IIB | IIIA | IIIA | IIIB |
@@ -96,4 +96,4 @@ The TNM stage grouping according to the proposed 9th edition of the TNM classifi
 
 </div>
 
-stage 1, 2는 수술 medically inoperable dearly stage NSCLC, SBRT
+stage 1, 2는 수술 medically inoperable early stage NSCLC, SBRT

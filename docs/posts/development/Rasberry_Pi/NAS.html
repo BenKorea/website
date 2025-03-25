@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="BenKorea">
-<meta name="dcterms.date" content="2024-10-14">
-<meta name="description" content="Prostate cancer AJCC 8th editiopn (2017)">
+<meta name="dcterms.date" content="2024-11-16">
+<meta name="description" content="라즈베리파이를 이용한 NAS 구축">
 
-<title>Staging – BenKorea</title>
+<title>NAS – BenKorea</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,8 +96,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../posts/IT/introduction.html"> 
-<span class="menu-text">IT</span></a>
+    <a class="nav-link" href="../../../posts/development/introduction.html"> 
+<span class="menu-text">Development</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../posts/Oncology/index.html"> 
@@ -134,16 +134,15 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Staging</h1>
+      <h1 class="title">NAS</h1>
                   <div>
         <div class="description">
-          Prostate cancer AJCC 8th editiopn (2017)
+          라즈베리파이를 이용한 NAS 구축
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Prostate cancer</div>
-                <div class="quarto-category">staging</div>
-                <div class="quarto-category">AJCC 8th</div>
+                <div class="quarto-category">Rasberry pi</div>
+                <div class="quarto-category">NAS</div>
               </div>
                   </div>
   </div>
@@ -161,14 +160,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 14, 2024</p>
+        <p class="date">November 16, 2024</p>
       </div>
     </div>
     
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">March 1, 2025</p>
+        <p class="date-modified">March 4, 2025</p>
       </div>
     </div>
       
@@ -186,142 +185,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="clinical-t-staging" class="level2">
-<h2 class="anchored" data-anchor-id="clinical-t-staging">Clinical T Staging</h2>
-<div>
-<div id="tbl-ClinicalStages" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ClinicalStages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Definition of clinical stages
-</figcaption>
-<div aria-describedby="tbl-ClinicalStages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 10%">
-<col style="width: 90%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>cT</strong></th>
-<th style="text-align: left;"><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>TX</strong></td>
-<td style="text-align: left;">Primary tumor cannot be assessed</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>T0</strong></td>
-<td style="text-align: left;">No evidence of primary tumor</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>T1</strong></td>
-<td style="text-align: left;">Clinically inapparent tumor that is not palpable</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>T1a</strong></td>
-<td style="text-align: left;">Tumor incidental histologic finding in 5% or less of tissue resected</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>T1b</strong></td>
-<td style="text-align: left;">Tumor incidental histologic finding in more than 5% of tissue resected</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>T1c</strong></td>
-<td style="text-align: left;">Tumor identified by needle biopsy found in one or both sides, but not palpable</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>T2</strong></td>
-<td style="text-align: left;">Tumor is palpable and confined within prostate</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>T2a</strong></td>
-<td style="text-align: left;">Tumor involves one-half of one side or less</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>T2b</strong></td>
-<td style="text-align: left;">Tumor involves more than one-half of one side but not both sides</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>T2c</strong></td>
-<td style="text-align: left;">Tumor involves both sides</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>T3</strong></td>
-<td style="text-align: left;">Extraprostatic tumor that is not fixed or does not invade adjacent structures</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>T3a</strong></td>
-<td style="text-align: left;">Extraprostatic extension (unilateral or bilateral)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>T3b</strong></td>
-<td style="text-align: left;">Tumor invades seminal vesicle(s)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>T4</strong></td>
-<td style="text-align: left;">Tumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-</div>
-</section>
-<section id="pathologic-t-staging" class="level2">
-<h2 class="anchored" data-anchor-id="pathologic-t-staging">Pathologic T Staging</h2>
-<div>
-<div id="tbl-PathologicStages" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-PathologicStages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Definition of pathologic T stages
-</figcaption>
-<div aria-describedby="tbl-PathologicStages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 10%">
-<col style="width: 90%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>pT</strong></th>
-<th style="text-align: left;"><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>T2</strong></td>
-<td style="text-align: left;">Organ confined</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>T3</strong></td>
-<td style="text-align: left;">Extraprostatic extension</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>T3a</strong></td>
-<td style="text-align: left;">Extraprostatic extension (unilateral or bilateral) or microscopic invasion of bladder neck</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>T3b</strong></td>
-<td style="text-align: left;">Tumor invades seminal vesicle(s)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>T4</strong></td>
-<td style="text-align: left;">Tumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-</div>
-<p>Note: There is no pathological T1</p>
-<p>Note: Positive surgical margin should be indicated by an R1 descriptor, indicating residual microscopic disease.</p>
+<p>목표 스마트폰의 사진 자동백업과 Viewer 궁극적으로 Synology Photos 사용 현단계에는 PhotoSync through OMV Plex NextCloud Home bridge Home assistant</p>
+<p>microSD card format microSD card회사 홈페이지에서 다운로드 https://www.sdcard.org/downloads/formatter/index.html</p>
+<p>Raspbian install Raspbian install image 파일 download https://www.raspberrypi.org/downloads/raspberry-pi-os/ 용량이 커서 집에서 다운로드 Win32DiskImager로 SD에 image 파일 writing ssh raspberry pi ip</p>
+<p>omv install https://blog.jeuke.com/68 https://www.codesarang.com/17 ssh pi user 등록</p>
+<p>2020.09.20 우리부부는 아이폰을 사용해오고 있으며 “iCloud 저장공간이 가득 참” 메세지에도 불구하고 저장공간을 업그레이드 하지 않고 지내고 있다. 옛날 사진은 1TB 외장하드에 보관하고 있으나 최근에는 아이폰이나 PC에서 옮기지도 않고 있다. 이에 NAS 를 구축하여 스마트폰 사진을 자동으로 백업하는 우리가족 프로젝트를 진행하기로 했다.</p>
+<p>2020.09.21. 스마트폰 NAS 자동백업 App 및 NAS 선택 검색 후 2가지 선택 중 고민이 되었다. 스마트폰 App으로는 SynologyPhoto가 편리하고 우수하다 하고 Synology NAS 구매하면 무료로 사용이 가능하다. 다른 옵션인 PhotoSync는 화질손실없이 자동백업이 될려면 pro version과 premium version 둘다를 구매해야 하므로 지속적인 비용지출이 단점이다. 자작 NAS로는 라즈베리파이4를 기반으로 가성비 높게 구축이 가능하다. Synology NAS의 경우 DS620Slime을 염두에 두었다. (설치는 거실이 될 예정이고, 개인적으로 소음을 상당히 싫어하기 때문에 SSD 장차과 저소음 40mm fan으로 교체후기가 있는 것을 고려하였다. 또한 더 이상 사용하지 않는 노트북의 SSD 하드 장착이 가능하다는 점도 고려되었다. 현재 사용중인 노트북이 2대가 있으므로 2.5인치 SDD는 추가가 될 것이므로 6 bay가 나쁜 선택은 아닌 것 같다.) 일단은 라즈베리파이4로 자작을 하고 문제가 발생하면 Synology를 바로 구매하는 전략으로 진행하기로 했다. 라즈베리파이4는 향후 스마트홈 구축 프로젝트 진행 시 자작서버로써로 활용이 가능할 것이라 예상되어 불필요한 지출이라기 보다는 취미생활이 하나 늘어나는 것으로 생각한다.</p>
+<p>2020.09.25 라즈베리파이4 부속물 선택 SD는 32GB로 선택했다. 향후 다목적으로 사용하기 위해 다양한 프로그램이 추가 설치될 것을 고려했다. 전원케이블 국내판매되는 것 중 스위치가 있는 형태가 있었으나 주문 당시에는 몰라서 스위치가 없는 형태를 주문했다. 멀티탭에 스위치가 있는 형태를 사용해서 단점을 극복해야 하겠다. 일단은 여기까지 구매 했고, 초보자로써 필요한 프로그램 설치에 성공한다는 보장이 없어서 일단 프로그램 설치 및 정상작동이 확인되고 난 뒤 아래의 쿨링과 케이스를 구매할 예정이다. 라즈베리파이4는 발열이 있어 쿨링이 필요하다. 검색시 Amazone에서 GeeekPi Raspberry Pi 4 Case with ICE Tower Cooler CPU Cooling Fan 이 40mm 팬이므로 Noctua fan으로 교체가능성을 염두로 두고 구매예정이다. 이 제품은 아크릴판 case와 같이 구매가 가능하다.</p>
+<p>2020.10.06 중복사진 정리 프로그램 먼저 옛날 사진/동영상을 외장하드에 보관할 때, 몇번의 노트북을 거치는 과정에서 중복으로 back up 된 문제가 있으므로 이를 해결하기 위해 무료 사진 정리 프로그램을 조사했다. VisiPics 동영상도 되는지 모르겠다.</p>
+<p>2020.10.07 SD Card Formatter 다운로드 SD Card Formatter 프로그램을 선택하였는데, 라즈비안을 설치하게 되면 파티션이 2 개로 나뉘는데 각각의 파티션을 포맷 후 병합하는 과정까지 한 번에 해준다라는 검색결과를 참고하였으며, 이 사이트는 설명이 가장 잘 되어 있었다. microSD card회사 홈페이지(https://www.sdcard.org/downloads/formatter/index.html)에서 SD Card Formatter 5.0.1 Setup.exe를 다운로드 받았다.</p>
+<p>2020.10.07 라즈비안 OS 다운로드</p>
+<p>SD Card Formatter를 인스톨 후 실행했을 때 sd카드가 연결되어 있다면 자동으로 인식되어 나타난다. 저용량 sd카드는 FAT32로 포맷을 하고, 고용량인 sd카드는 exFAT으로 포맷을 하게된다.32GB까지는 FAT32로 포맷하면 된다. 옵션에서 빠른 포맷이 실패하였다는 후기가 있으나 대부분은 빠른 포맷이 가능하였다라는 후기가 더 많았다.</p>
+<p>2020.10.09 라즈비안 설치 SD card에 설치 후 window에서 보면 용량이 다르게 보이나 이는 window와 리눅스의 차이</p>
+<p>2020-10-19 OMV5 설치 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash</p>
+<p>2020-10-25 NextCloud 설치 mariadb에서 db 생성</p>
+<p>wget 현재 디렉토리로 다운로드 | 파이프라인 (앞에 실행한 결과를 뒤에 실행하는 명령어의 입력으로 보내 줌</p>
+<p>Raspbian directory</p>
+<p>라즈비안 다운로드</p>
+<p>Docker 설치 1-1. 동적OMV5에서 docker를 실행하면 는</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
