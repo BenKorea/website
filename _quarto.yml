@@ -29,9 +29,6 @@ website:
       collapse-level: 2    
       contents:
         - posts/development/introduction.qmd
-        - section: "WSL2"
-          contents:
-            - posts/development/wsl2/setup.qmd
         - section: "Rasberry Pi"
           contents:
             - posts/development/Rasberry_Pi/setup.qmd            
